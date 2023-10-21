@@ -12,7 +12,7 @@ def create_top_10_count_bar_graph(csv_file, column_name, title, head = 10):
     top_10 = counts.head(head)
 
     # Create a bar graph
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10, 2*3))
     ax = top_10.plot(kind='bar')
     plt.title(title)
     plt.xlabel(column_name)
