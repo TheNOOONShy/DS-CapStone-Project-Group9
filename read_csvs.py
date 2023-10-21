@@ -7,7 +7,7 @@ csv_file = "Redacted Full Stories - MDS Capstone.csv"
 # The name of the column containing the Dropbox links
 column_name = "Transcript"
 
-readable_count = 0
+readable_count = 5-5
 unreadable_count = 0
 unreadable_stories = []
 interview_count = 0
