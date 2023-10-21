@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def create_top_10_count_bar_graph(csv_file, column_name, title):
+def create_top_10_count_bar_graph(csv_file, column_name, title, head = 10):
     # Read the CSV file into a pandas DataFrame
     data = pd.read_csv(csv_file)
 
@@ -9,7 +9,7 @@ def create_top_10_count_bar_graph(csv_file, column_name, title):
     counts = data[column_name].value_counts().sort_values(ascending=False)
 
     # Select the top 10 items
-    top_10 = counts.head(10)
+    top_10 = counts.head(head)
 
     # Create a bar graph
     plt.figure(figsize=(10, 6))
@@ -27,7 +27,7 @@ def create_top_10_count_bar_graph(csv_file, column_name, title):
     plt.tight_layout()
     plt.show()
 
-def create_top_10_tags_bar_graph(csv_file):
+def create_top_10_tags_bar_graph(csv_file, head = 10):
     # Read the CSV file into a pandas DataFrame
     data = pd.read_csv(csv_file)
 
@@ -38,7 +38,7 @@ def create_top_10_tags_bar_graph(csv_file):
     tag_counts = tags.value_counts().sort_values(ascending=False)
 
     # Select the top 10 tags
-    top_10_tags = tag_counts.head(10)
+    top_10_tags = tag_counts.head(head)
 
     # Create a bar graph
     plt.figure(figsize=(10, 6))
@@ -60,8 +60,8 @@ def create_top_10_tags_bar_graph(csv_file):
 # Example usage:
 csv_file = "Redacted Full Stories - MDS Capstone.csv"
 
-create_top_10_tags_bar_graph(csv_file)
-#create_top_10_count_bar_graph(csv_file, "Prison", 'Top 10 Counts of Stories per Prison (Descending Order)')
+# create_top_10_tags_bar_graph(csv_file)
+create_top_10_count_bar_graph(csv_file, "Prison", 'Top 10 Counts of Stories per Prison (Descending Order)', 100)
 
 create_top_10_count_bar_graph(csv_file, "Unique ID", 'Counts of Stories per Unique ID (Descending Order)')
 
