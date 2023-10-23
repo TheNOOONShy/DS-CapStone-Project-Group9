@@ -23,6 +23,20 @@ def analyze_sentiment_nltk(paragraph, sentiment_analyzer):
         }
 
     return sentiment
+    
+def get_sentiment_of_entire_file(text, sentiment_analyzer):
+    if sentiment_analyzer == 'nltk':
+        sia = SentimentIntensityAnalyzer()
+        sentiment = sia.polarity_scores(text)
+    elif sentiment_analyzer == 'spacy':
+        nlp = spacy.load("en_core_web_sm")
+        doc = nlp(text)
+        sentiment = {
+            'polarity': doc._.polarity,
+            'subjectivity': doc._.subjectivity
+        }
+
+    return sentiment
 
 def process_csv_sentiment_analysis(csv_file, sentiment_analyzer="nltk"):
     # Load the CSV file with the correct file path
@@ -35,7 +49,7 @@ def process_csv_sentiment_analysis(csv_file, sentiment_analyzer="nltk"):
     for index, row in data.iterrows():
         story_id = row["Story ID (prison_yyyymmdd_topic)"]
         dropbox_link = row["Transcript"]
-        print(f'\tRunning {story_id}')
+        print(f'Running {story_id}')
         if not pd.isnull(dropbox_link):  # Check for missing values in the Dropbox link
             # Assuming the Dropbox links point to plain text files (e.g., .txt files)
             try:
@@ -69,13 +83,19 @@ def process_csv_sentiment_analysis(csv_file, sentiment_analyzer="nltk"):
                             sentiment = analyze_sentiment_nltk(paragraph, sentiment_analyzer)
                             story_sentiments.append(sentiment)
 
+                    # Calculate sentiment of entire file content
+                    entire_file_sentiment = get_sentiment_of_entire_file(text_content, sentiment_analyzer)
+
                     # Store the list of sentiment analysis values in the dictionary
-                    sentiment_dict[story_id] = story_sentiments
+                    sentiment_dict[story_id] = {
+                        "Paragraph Sentiments": story_sentiments,
+                        "Entire File Sentiment": entire_file_sentiment
+                    }
             except Exception as e:
                 print(f"Error processing Dropbox link for Story ID {story_id}: {str(e)}")
 
     # Save the sentiment dictionary to a CSV file
-    sentiment_df = pd.DataFrame.from_dict(sentiment_dict, orient='index', columns=[f"Paragraph_{i + 1}" for i in range(len(story_sentiments))])
+    sentiment_df = pd.DataFrame.from_dict(sentiment_dict, orient='index')
     sentiment_df.to_csv(f"sentiment_results_{sentiment_analyzer}.csv")
 
 if __name__ == "__main__":
