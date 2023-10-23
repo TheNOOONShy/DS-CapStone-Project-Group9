@@ -4,7 +4,6 @@ import re
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import spacy
-# from spacytextblob import TextBlob
 
 # Download the NLTK VADER lexicon if not already downloaded
 nltk.download('vader_lexicon')
@@ -23,7 +22,7 @@ def analyze_sentiment_nltk(paragraph, sentiment_analyzer):
         }
 
     return sentiment
-    
+
 def get_sentiment_of_entire_file(text, sentiment_analyzer):
     if sentiment_analyzer == 'nltk':
         sia = SentimentIntensityAnalyzer()
@@ -38,22 +37,22 @@ def get_sentiment_of_entire_file(text, sentiment_analyzer):
 
     return sentiment
 
-def process_csv_sentiment_analysis(csv_file, sentiment_analyzer="nltk"):
+def process_csv_sentiment_analysis(csv_file, sentiment_analyzer="nltk", calculate_entire_file_sentiment=True):
     # Load the CSV file with the correct file path
     data = pd.read_csv(csv_file)
 
-    # Create an empty dictionary to store sentiment analysis values for each story
-    sentiment_dict = {}
+    # Create an empty list to store sentiment analysis results
+    results = []
 
     # Iterate through the rows of the CSV file
     for index, row in data.iterrows():
         story_id = row["Story ID (prison_yyyymmdd_topic)"]
         dropbox_link = row["Transcript"]
-        print(f'Running {story_id}')
+        print(f'\tRunning {story_id}')
         if not pd.isnull(dropbox_link):  # Check for missing values in the Dropbox link
-            # Assuming the Dropbox links point to plain text files (e.g., .txt files)
-            try:
-                if "www.dropbox.com/s/" in dropbox_link:
+            # Check if the file is a text file (ending in .txt?dl=0)
+            if dropbox_link.endswith('.txt?dl=0'):
+                try:
                     # Replace "www.dropbox.com" with "dl.dropboxusercontent.com" to get the direct file URL
                     file_url = dropbox_link.replace("www.dropbox.com", "dl.dropboxusercontent.com")
 
@@ -66,10 +65,11 @@ def process_csv_sentiment_analysis(csv_file, sentiment_analyzer="nltk"):
                     # Split the text content into paragraphs using both "\n" and "\r"
                     paragraphs = re.split(r'[\n\r]+', text_content)
 
-                    # Initialize a list to store sentiment analysis values for this story
+                    # Initialize variables to store sentiment analysis values
                     story_sentiments = []
+                    entire_file_sentiment = None
 
-                    for i, paragraph in enumerate(paragraphs):
+                    for paragraph in paragraphs:
                         if "UCI:" in paragraph:
                             # Check if "Caller:" is in the paragraph
                             if "Caller:" in paragraph:
@@ -83,25 +83,35 @@ def process_csv_sentiment_analysis(csv_file, sentiment_analyzer="nltk"):
                             sentiment = analyze_sentiment_nltk(paragraph, sentiment_analyzer)
                             story_sentiments.append(sentiment)
 
-                    # Calculate sentiment of entire file content
-                    entire_file_sentiment = get_sentiment_of_entire_file(text_content, sentiment_analyzer)
+                    # Calculate sentiment of entire file content if enabled
+                    if calculate_entire_file_sentiment:
+                        entire_file_sentiment = get_sentiment_of_entire_file(text_content, sentiment_analyzer)
 
-                    # Store the list of sentiment analysis values in the dictionary
-                    sentiment_dict[story_id] = {
+                    results.append({
+                        "Story ID": story_id,
                         "Paragraph Sentiments": story_sentiments,
                         "Entire File Sentiment": entire_file_sentiment
-                    }
-            except Exception as e:
-                print(f"Error processing Dropbox link for Story ID {story_id}: {str(e)}")
+                    })
+                except Exception as e:
+                    print(f"Error processing Dropbox link for Story ID {story_id}: {str(e)}")
+            # Check if the file is an MP3 file (ending in .mp3?dl=0)
+            elif dropbox_link.endswith('.mp3?dl=0'):
+                print(f"Skipping MP3 file: {dropbox_link}")
+            else:
+                print(f"Skipping unknown file type: {dropbox_link}")
 
-    # Save the sentiment dictionary to a CSV file
-    sentiment_df = pd.DataFrame.from_dict(sentiment_dict, orient='index')
-    sentiment_df.to_csv(f"sentiment_results_{sentiment_analyzer}.csv")
+    # Create a DataFrame from the results
+    df = pd.DataFrame(results)
+
+    # Save the DataFrame to a CSV file
+    df.to_csv(f"sentiment_results_{sentiment_analyzer}.csv", index=False)
 
 if __name__ == "__main__":
     csv_file = "Data CSV's/Redacted Full Stories - MDS Capstone.csv"
-    sentiment_analyzers = ["nltk", "spacy"]
+    sentiment_analyzers = ["nltk",
+                            # "spacy"
+                            ]
 
     for analyzer in sentiment_analyzers:
         print(f'running {analyzer}')
-        process_csv_sentiment_analysis(csv_file, sentiment_analyzer=analyzer)
+        process_csv_sentiment_analysis(csv_file, sentiment_analyzer=analyzer, calculate_entire_file_sentiment=True)
