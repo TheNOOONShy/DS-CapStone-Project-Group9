@@ -2,6 +2,7 @@ import pandas as pd
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import requests
+import re
 
 # Download the NLTK VADER lexicon if not already downloaded
 nltk.download('vader_lexicon')
@@ -13,8 +14,8 @@ data = pd.read_csv(csv_file)
 # Initialize the Sentiment Intensity Analyzer
 sia = SentimentIntensityAnalyzer()
 
-# Create an empty list to store data for the DataFrame
-result_data = []
+# Create an empty dictionary to store sentiment analysis values for each story
+sentiment_dict = {}
 
 # Iterate through the rows of the CSV file
 for index, row in data.iterrows():
@@ -34,25 +35,35 @@ for index, row in data.iterrows():
                 # Remove "</br></br>" tags from the text content
                 text_content = text_content.replace("</br></br>", "")
 
-                # Split the text content into paragraphs
-                paragraphs = text_content.split('\n')
-                print(paragraphs)
+                # Split the text content into paragraphs using both "\n" and "\r"
+                paragraphs = re.split(r'[\n\r]+', text_content)
+
+                # Initialize a list to store sentiment analysis values for this story
+                story_sentiments = []
+
                 for i, paragraph in enumerate(paragraphs):
-                    if "UCI:" not in paragraph:  # Check if "UCI:" is not in the paragraph
-                        # Perform sentiment analysis on the cleaned paragraph
+                    if "UCI:" in paragraph:
+                        # Check if "Caller:" is in the paragraph
+                        if "Caller:" in paragraph:
+                            # Extract text after "Caller:"
+                            caller_sentiment_text = paragraph.split("Caller:", 1)[1].strip()
+                            # Perform sentiment analysis on the caller sentiment text
+                            sentiment = sia.polarity_scores(caller_sentiment_text)
+                            story_sentiments.append(sentiment)
+                    elif "UCI:" not in paragraph:
+                        # Perform sentiment analysis on the paragraph
                         sentiment = sia.polarity_scores(paragraph)
-                        result_data.append({
-                            "Story ID": story_id,
-                            "Paragraph Number": i + 1,
-                            "Sentiment Scores": sentiment,
-                            "Dropbox Link": dropbox_link
-                        })
+                        story_sentiments.append(sentiment)
+
+                # Store the list of sentiment analysis values in the dictionary
+                sentiment_dict[story_id] = story_sentiments
+                print(story_sentiments)
         except Exception as e:
             print(f"Error processing Dropbox link for Story ID {story_id}: {str(e)}")
 
-# Create a Pandas DataFrame from the result_data list
-df = pd.DataFrame(result_data)
-
-# Save the DataFrame to a CSV file
-output_csv = "sentiment_analysis_results.csv"
-df.to_csv(output_csv, index=False)
+# Print the sentiment dictionary
+for story_id, sentiment_values in sentiment_dict.items():
+    print("Story ID:", story_id)
+    for i, sentiment in enumerate(sentiment_values):
+        print(f"Paragraph {i + 1} Sentiment Scores:", sentiment)
+    print()
