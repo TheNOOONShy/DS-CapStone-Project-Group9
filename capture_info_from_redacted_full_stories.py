@@ -2,7 +2,6 @@ import csv
 
 full_information = []
 fields = ['file_name', 'date', 'prison_name', 'tags']
-
 with open('data/Redacted Full Stories - MDS Capstone.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line = 0
