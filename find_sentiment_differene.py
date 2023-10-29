@@ -11,14 +11,14 @@ flair_df = pd.read_csv(flair_file)
 merged_df = vader_df.merge(flair_df, on="Filename", how="inner")
 
 # Create the new DataFrame with the specified conditions
-merged_df["NegVaderPosFlair"] = (merged_df["Compound Sentiment"] < 0) & (merged_df["Sentiment"] == "NEGATIVE")
-merged_df["PosVaderNegFlair"] = (merged_df["Compound Sentiment"] > 0) & (merged_df["Sentiment"] == "POSITIVE")
+merged_df["NegVaderPosFlair"] = (merged_df["Compound Sentiment"] < 0) & (merged_df["Sentiment"] == "POSITIVE")
+merged_df["PosVaderNegFlair"] = (merged_df["Compound Sentiment"] > 0) & (merged_df["Sentiment"] == "NEGATIVE")
 merged_df["MatchingVaderFlair"] = ((merged_df["Compound Sentiment"] > 0) & (merged_df["Sentiment"] == "POSITIVE")) | ((merged_df["Compound Sentiment"] < 0) & (merged_df["Sentiment"] == "NEGATIVE"))
 
-# Convert the Boolean columns to "True" or "False" strings
-merged_df["NegVaderPosFlair"] = merged_df["NegVaderPosFlair"].map({True: "True", False: "False"})
-merged_df["PosVaderNegFlair"] = merged_df["PosVaderNegFlair"].map({True: "True", False: "False"})
-merged_df["MatchingVaderFlair"] = merged_df["MatchingVaderFlair"].map({True: "True", False: "False"})
+# # Convert the Boolean columns to "True" or "False" strings
+# merged_df["NegVaderPosFlair"] = merged_df["NegVaderPosFlair"].map({True: "True", False: "False"})
+# merged_df["PosVaderNegFlair"] = merged_df["PosVaderNegFlair"].map({True: "True", False: "False"})
+# merged_df["MatchingVaderFlair"] = merged_df["MatchingVaderFlair"].map({True: "True", False: "False"})
 
 # Select and reorder columns
 result_df = merged_df[["Filename", "NegVaderPosFlair", "PosVaderNegFlair", "MatchingVaderFlair"]]
