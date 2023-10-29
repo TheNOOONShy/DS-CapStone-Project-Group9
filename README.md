@@ -8,6 +8,7 @@ We are looking at transcripts from prisoners and those in jail about covid condi
 1. Transcripts:
 
   Transcripts are recieved from the Prison Pandemic website from UCI
+
 2. Covid Data:
 
   <NEED TO BE INSERTED>
