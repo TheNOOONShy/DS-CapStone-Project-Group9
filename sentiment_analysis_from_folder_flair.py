@@ -16,6 +16,7 @@ output_file = "sentiment_analysis_results_flair.csv"
 # Create empty lists to store the results
 file_names = []
 sentiments = []
+polarity_values = []
 
 # Function to extract text from docx files using mammoth
 def extract_text_from_docx(docx_file):
@@ -60,15 +61,18 @@ for filename in os.listdir(data_dir):
     # Predict sentiment using the Flair model
     flair_sentiment_model.predict(sentence)
     sentiment_label = sentence.labels[0].value
+    polarity = sentence.labels[0].score
 
     # Append results to the list
     file_names.append(filename)
     sentiments.append(sentiment_label)
+    polarity_values.append(polarity)  # Append polarity value
 
 # Create a pandas DataFrame from the results
 data = {
     'Filename': file_names,
-    'Sentiment': sentiments
+    'Sentiment': sentiments,
+    'Polarity': polarity_values  # Add polarity values to the DataFrame
 }
 df = pd.DataFrame(data)
 
