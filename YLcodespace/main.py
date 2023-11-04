@@ -1,4 +1,4 @@
-from csv_counter import count
+from data_process import (count)
 from statistical_analysis_script import (read_data, plot_histogram_and_describe, qq_plot, 
                            sqrt_transformation_and_qq_plot, boxcox_transformation_and_qq_plot)
 
