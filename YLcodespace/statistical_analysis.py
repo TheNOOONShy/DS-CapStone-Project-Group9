@@ -57,3 +57,61 @@ def sqrt_transformation_and_qq_plot(data, variable):
     # QQ plot for the square root transformed data
     qq_plot(data, variable + '_Sqrt')
 
+
+ def calculate_statistics(data):
+    stats = data.describe()
+    variance = data.var()
+    mode = data.mode().tolist()  # There can be multiple modes
+    return stats, variance, mode
+
+def calculate_correlation(data, col1, col2):
+    return data[[col1, col2]].corr()
+
+def group_and_summarize(data, time_period, value_column):
+    data['period'] = data['date'].dt.to_period(time_period).apply(lambda r: r.start_time)
+    means = data.groupby('period')[value_column].mean().reset_index()
+    counts = data.groupby('period').size().reset_index(name='counts')
+    summary = pd.merge(means, counts, on='period')
+    return summary
+
+def plot_time_series(x, y, title, x_label, y_label):
+    plt.figure(figsize=(14, 7))
+    plt.plot(x, y, marker='o', linestyle='-')
+    plt.title(title)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+def plot_histogram(data, title, x_label, y_label):
+    plt.figure(figsize=(14, 7))
+    data.plot(kind='bar', color='skyblue')
+    plt.title(title)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+def calculate_and_plot_means_by_days(data, value_column='Polarity_BoxCox', days=30, title=None):
+    # Resampling based on the number of days
+    means = data.set_index('date').resample(f'{days}D')[value_column].mean().reset_index()
+    
+    # If the title is not provided, create one based on the number of days
+    if not title:
+        title = f'Time Series of {days}-day Mean {value_column}'
+    
+    plt.figure(figsize=(14, 7))
+    plt.plot(means['date'], means[value_column], marker='o', linestyle='-', label=f'{days}-day Mean {value_column}')
+    plt.title(title)
+    plt.xlabel('Date')
+    plt.ylabel(f'Mean {value_column}')
+    plt.legend()
+    plt.grid(True)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+    
+    return means
+
