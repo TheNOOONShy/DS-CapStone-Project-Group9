@@ -17,11 +17,11 @@ FireCamps,California,State,Department
 Folsom,Sacramento,State,Prison
 Fresno_Main,Fresno,County,Jail
 Fresno_Mendota,Fresno,Federal,Prison
-High Desert State Prison,Lassen,State,Prison
+High Desert,Lassen,State,Prison
 Ironwood,Riverside,State,Prison
 Jamestown,Tuolumne,State,Prison
 Kern_GSAnnex,Kern,State,Prison
-Kern Valley State Prison,Kern,State,Prison
+KernValley,Kern,State,Prison
 Kings_Main,Kings,County,Jail
 Lancaster,Los Angeles,State,Prison
 LosAngeles_MensCentral,Los Angeles,County,Jail
@@ -44,13 +44,12 @@ Riverside_Presley,Riverside,County,Jail
 Riverside_Smith,Riverside,County,Jail
 Riverside_unspecified,Riverside,County,Jail
 SalinasValley,Monterey,State,Prison
-San Quentin,Marin,State,Prison
+SanQuentin,Marin,State,Prison
 SanBernadino_WestValley,San Bernardino,County,Jail
 SanBernardino_Central,San Bernardino,County,Jail
 SanJoaquin_Main,San Joaquin,County,Jail
 SantaClara_Elmwood,Santa Clara,County,Jail
 SantaClara_Main,Santa Clara,County,Jail
-SCC,Tuolumne,State,Prison
 Solano,Solano,State,Prison
 Soledad,Monterey,State,Prison
 Sonoma_Main,Sonoma,County,Jail
@@ -69,3 +68,6 @@ Ventura_Todd,Ventura,County,Jail
 Wasco,Kern,State,Prison
 Yuba,Yuba,County,Jail
 Orange_TheoLacy,Orange,County,Jail
+Donovan,San Diego,State,Prison
+Delano,Kern,State,Prison
+Merced_Latorraca ,Merced,County,Jail
