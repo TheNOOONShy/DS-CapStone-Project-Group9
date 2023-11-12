@@ -1,41 +1,41 @@
-Name in Prison covid,Location
-Avenal State Prison (ASP),Avenal
-California City Correctional Facility (CAC),CaliforniaCity
-Calipatria State Prison (CAL),Calipatria
-California State Prison-Centinela (CEN),Centinela
-California Institution for Men (CIM),Chino
-Central California Women's Facility (CCWF),Chowchilla
-Chuckawalla Valley State Prison (CVSP),Chuckawalla
-California Institution for Women (CIW),CIW
-California Men's Colony (CMC),CMC
-California State Prison-Corcoran (COR),Corcoran
-Substance Abuse Treatment Facility (SATF),CSATF
-Folsom State Prison (FSP),Folsom
-Out of Data,Fresno_Mendota
-High Desert State Prison (HDSP),High Desert
-Ironwood State Prison (ISP),Ironwood
-Sierra Conservation Center (SCC),Jamestown
-Kern Valley State Prison (KVSP),Kern_GSAnnex
-Kern Valley State Prison (KVSP),KernValley
-California State Prison-Los Angeles County (LAC),Lancaster
-Out of Data,Merced_USPAtwater
-Mule Creek State Prison (MCSP),Mule Creek
-California State Prison-Sacramento (SAC),NewFolsom
-California Rehabilitation Center (CRC),Norco
-North Kern State Prison (NKSP),NorthKern
-Pelican Bay State Prison (PBSP),PelicanBay
-Pleasant Valley State Prison (PVSP),Pleasant Valley
-Salinas Valley State Prison (SVSP),SalinasValley
-San Quentin State Prison (SQ),SanQuentin
-California State Prison-Solano (SOL),Solano
-Correctional Training Facility (CTF),Soledad
-California Health Care Facility (CHCF),Stockton
-California Correctional Center (CCC),Susanville
-California Correctional Institution (CCI),Tehachapi
-Deuel Vocational Institution (DVI),Tracy
-Out of Data,USP_Victorville
-California State Prison-Solano (SOL),Vacaville
-Valley State Prison (VSP),Valley State
-Wasco State Prison (WSP),Wasco
-Richard J. Donovan Correctional Facility (RJD),Donovan
-Out of Data,Delano
+Name in Prison,Name in Data,Prison Population,Persent Occupied
+Avenal State Prison (ASP),Avenal,4592,157.9
+California City Correctional Facility (CAC),CaliforniaCity,,
+Calipatria State Prison (CAL),Calipatria,2706,117.2
+California State Prison-Centinela (CEN),Centinela,2802,121.4
+California Institution for Men (CIM),Chino,2371,147.8
+Central California Women's Facility (CCWF),Chowchilla,2290,115.1
+Chuckawalla Valley State Prison (CVSP),Chuckawalla,2021,116.3
+California Institution for Women (CIW),CIW,1149,89.7
+California Men's Colony (CMC),CMC,2065,54.1
+California State Prison-Corcoran (COR),Corcoran,3505,112.5
+Substance Abuse Treatment Facility (SATF),CSATF,4821,140.8
+Folsom State Prison (FSP),Folsom,2875,138.9
+Out of Data,Fresno_Mendota,,
+High Desert State Prison (HDSP),High Desert,2387,102.1
+Ironwood State Prison (ISP),Ironwood,3051,138.7
+Sierra Conservation Center (SCC),Jamestown,4265,85.8
+Kern Valley State Prison (KVSP),Kern_GSAnnex,2871,117.3
+Kern Valley State Prison (KVSP),KernValley,2871,117.3
+California State Prison-Los Angeles County (LAC),Lancaster,2679,116.5
+Out of Data,Merced_USPAtwater,,
+Mule Creek State Prison (MCSP),Mule Creek,3803,115.8
+California State Prison-Sacramento (SAC),NewFolsom,1841,100.7
+California Rehabilitation Center (CRC),Norco,2919,160.2
+North Kern State Prison (NKSP),NorthKern,3799,141.0
+Pelican Bay State Prison (PBSP),PelicanBay,1576,66.2
+Pleasant Valley State Prison (PVSP),Pleasant Valley,2660,115.3
+Salinas Valley State Prison (SVSP),SalinasValley,2687,109.6
+San Quentin State Prison (SQ),SanQuentin,3488,113.1
+California State Prison-Solano (SOL),Solano,3718,143.3
+Correctional Training Facility (CTF),Soledad,4293,153.3
+California Health Care Facility (CHCF),Stockton,2258,76.5
+California Correctional Center (CCC),Susanville,2308,59.4
+California Correctional Institution (CCI),Tehachapi,1715,113.7
+Deuel Vocational Institution (DVI),Tracy,2047,121.8
+Out of Data,USP_Victorville,,
+California State Prison-Solano (SOL),Vacaville,3326,128.2
+Valley State Prison (VSP),Valley State,3247,165.6
+Wasco State Prison (WSP),Wasco,3620,121.3
+Richard J. Donovan Correctional Facility (RJD),Donovan,3291,110
+Out of Data,Delano,,
