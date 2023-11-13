@@ -7,7 +7,7 @@ import statsmodels.api as sm
 from scipy import stats
 
 # Load the data
-file_path = 'weeklydata.csv'  
+file_path = 'weeklydata.csv'
 data = pd.read_csv(file_path)
 
 # Transformations
