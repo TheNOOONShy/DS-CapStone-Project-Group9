@@ -20,20 +20,38 @@ import os
 # print("Unmerged Rows:")
 # print(unmerged_rows)
 
-# Load the merged weekly data
-merged_df = pd.read_csv('merged_weekly_data.csv')
+# # Load the merged weekly data
+# merged_df = pd.read_csv('merged_weekly_data.csv')
+#
+# # Load the NewLocation data
+# new_location_df = pd.read_csv(os.path.join('datamayneed', 'NewLocation.csv'))
+#
+# # Merge the dataframes based on "Facility Name" and "Type"
+# final_merged_df = pd.merge(merged_df, new_location_df, how='left', left_on=['Facility Name', 'Type'], right_on=['Location', 'Type'])
+#
+# # Drop the duplicate "Facility Name" and "Type" columns from the NewLocation dataframe
+# final_merged_df.drop(['Location'], axis=1, inplace=True)
+#
+# # Save the final merged dataframe
+# final_merged_df.to_csv('final_merged_data.csv', index=False)
+#
+# # Display the first few rows of the final merged dataframe
+# print(final_merged_df.head())
 
-# Load the NewLocation data
-new_location_df = pd.read_csv(os.path.join('datamayneed', 'NewLocation.csv'))
+# Load the final merged data
+import pandas as pd
 
-# Merge the dataframes based on "Facility Name" and "Type"
-final_merged_df = pd.merge(merged_df, new_location_df, how='left', left_on=['Facility Name', 'Type'], right_on=['Location', 'Type'])
+# Load the merged data
+final_merged_data = pd.read_csv('final_merged_data.csv')
 
-# Drop the duplicate "Facility Name" and "Type" columns from the NewLocation dataframe
-final_merged_df.drop(['Location'], axis=1, inplace=True)
+# Load the weekly death case rate data
+weekly_death_caserate_data = pd.read_csv('weeklyDeathCaserate.csv')
 
-# Save the final merged dataframe
-final_merged_df.to_csv('final_merged_data.csv', index=False)
+# Drop the 'Type' column from weeklyDeathCaserate
+weekly_death_caserate_data.drop(columns=['Type'], inplace=True, errors='ignore')
 
-# Display the first few rows of the final merged dataframe
-print(final_merged_df.head())
+# Merge the dataframes on 'Facility Name' and 'Week Number'
+merged_data = pd.merge(final_merged_data, weekly_death_caserate_data, on=['Facility Name', 'Week Number'], how='inner')
+
+# Save the merged data to a new CSV file
+merged_data.to_csv('final_merged_data_with_caserate.csv', index=False)
