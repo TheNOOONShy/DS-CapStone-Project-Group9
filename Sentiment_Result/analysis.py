@@ -5,8 +5,6 @@ import statsmodels.api as sm
 # Load the merged data
 merged_df = pd.read_csv('final_merged_data.csv')
 
-
-
 # Convert the 'Type' column to dummy variables
 merged_df = pd.get_dummies(merged_df, columns=['Type'], drop_first=True)
 
@@ -14,9 +12,8 @@ merged_df = pd.get_dummies(merged_df, columns=['Type'], drop_first=True)
 merged_df = merged_df[merged_df['Type_Jail'] == 0]
 
 # Separate 'Case_Death_Number' into 'Number of Cases' and 'Number of Deaths'
-# Separate 'Case_Death_Number' into 'Number of Cases' and 'Number of Deaths'
-merged_df['Number of Cases'] = merged_df['Prison Case Number']
-merged_df['Number of Deaths'] = merged_df['Prison Death Number']
+merged_df['Number_of_Cases'] = merged_df['Prison Case Number']
+merged_df['Number_of_Deaths'] = merged_df['Prison Death Number']
 
 # Include the 'Level' variable
 merged_df = pd.get_dummies(merged_df, columns=['Level'], drop_first=True)
@@ -24,8 +21,13 @@ merged_df = pd.get_dummies(merged_df, columns=['Level'], drop_first=True)
 # Rename columns to adjust the naming conventions
 merged_df.rename(columns={'Positive_count': 'Positive_Count'}, inplace=True)
 
+# Add a fourth-degree polynomial for 'Week Number'
+merged_df['Week_Number_2'] = merged_df['Week Number'] ** 2
+merged_df['Week_Number_3'] = merged_df['Week Number'] ** 3
+merged_df['Week_Number_4'] = merged_df['Week Number'] ** 4
+
 # Define the independent variables (features) for Positive_Count
-independent_vars_positive = ['Week Number', 'Overall Count_x', 'Number of Cases', 'Number of Deaths', 'Level_State']
+independent_vars_positive = ['Week Number', 'Week_Number_2', 'Week_Number_3', 'Week_Number_4', 'Number_of_Cases', 'Number_of_Deaths', 'Level_State']
 
 # Add a constant term for the intercept
 X_positive = sm.add_constant(merged_df[independent_vars_positive])
@@ -46,7 +48,7 @@ print(f"Linear Regression for Positive_Count (Prisons only) using independent va
 print(model_positive.summary())
 
 # Define the independent variables (features) for Negative_Count
-independent_vars_negative = ['Week Number', 'Overall Count_x', 'Number of Cases', 'Number of Deaths', 'Level_State']
+independent_vars_negative = ['Week Number', 'Week_Number_2', 'Week_Number_3', 'Week_Number_4', 'Number_of_Cases', 'Number_of_Deaths', 'Level_State']
 
 # Add a constant term for the intercept
 X_negative = sm.add_constant(merged_df[independent_vars_negative])
@@ -66,7 +68,7 @@ print(f"\nLinear Regression for Negative_Count (Prisons only) using independent 
 print(model_negative.summary())
 
 # Define the independent variables (features) for Total_Count
-independent_vars_total_count = ['Week Number', 'Overall Count_x', 'Number of Cases', 'Number of Deaths', 'Level_State']
+independent_vars_total_count = ['Week Number', 'Week_Number_2', 'Week_Number_3', 'Week_Number_4', 'Number_of_Cases', 'Number_of_Deaths', 'Level_State']
 
 # Add a constant term for the intercept
 X_total_count = sm.add_constant(merged_df[independent_vars_total_count])
