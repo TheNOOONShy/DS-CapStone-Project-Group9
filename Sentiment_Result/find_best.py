@@ -74,4 +74,4 @@ for filename in os.listdir(folder_path):
 for group_name, subgroups in model_results.items():
     for subgroup_name, result in subgroups.items():
         print(f"Group: {group_name}, Subgroup: {subgroup_name}, Top Adjusted R-squared: {result}")
-        print(f'\t Result: {best_models[group_name][subgroup_name]}\n')
+        print(f'\t Result: {best_models[group_name][subgroup_name]}\nl')
