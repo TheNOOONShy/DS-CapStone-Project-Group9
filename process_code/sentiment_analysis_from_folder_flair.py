@@ -41,9 +41,10 @@ positive_sentences_map = dict()
 negative_sentences_map = dict()
 
 class SentimentAnalysis:
-  def __init__(self, label, polarity):
+  def __init__(self, label, polarity, length):
     self.label = label
     self.polarity = polarity
+    self.length = length
  
 def remove(text, eliminated_char):
     return str(np.char.replace(text, eliminated_char, ''))
@@ -105,7 +106,7 @@ def read_and_collect_data(breakdown_sentence):
         negative_sentences = []
 
         if breakdown_sentence:
-            sentiment_label_map[filename] = SentimentAnalysis(sentiment_label_overall, polarity_overall)
+            sentiment_label_map[filename] = SentimentAnalysis(sentiment_label_overall, polarity_overall, len(text_for_sentiment))
 
             sentences = sent_tokenize(text_for_sentiment)
 
@@ -129,7 +130,7 @@ def read_and_collect_data(breakdown_sentence):
 
                 if filename not in score_map:
                     score_map[filename] = []
-                score_map[filename].append(SentimentAnalysis(sentiment_label, polarity))
+                score_map[filename].append(SentimentAnalysis(sentiment_label, polarity, len(sentence)))
 
         negative_sentences_map[filename] = negative_sentences
         positive_sentences_map[filename] = positive_sentences
@@ -159,19 +160,43 @@ def write_to_csv_with_pd():
 
 def collect_data_to_row():
     results = []
-    fields = ["filename", "overall_label", "overall_polarity", "sentimental_label_list", "sentimental_polarity_list", 
-              "avg_polarity", "negative_sentences", "positive_sentences"]
+    fields = ["filename", 
+              "overall_label", 
+              "overall_polarity", 
+              "sentimental_label_list", 
+              "sentimental_polarity_list", 
+              "avg_polarity", 
+              "negative_sentences", 
+              "negative_sentences_count", 
+              "positive_sentences", 
+              "positive_sentences_count",
+              "sentences_count", 
+              "avg_sentences_length"]
     for filename in file_name_list:
         total = 0
         polarity_list = []
         label_list = []
+        total_sentence_length = 0
         for sentiment in score_map[filename]:
             polarity_list.append(sentiment.polarity)
             label_list.append(sentiment.label)
             total += sentiment.polarity
+            total_sentence_length += sentiment.length
         average = total/len(score_map[filename])
-        result = [filename, sentiment_label_map[filename].label, sentiment_label_map[filename].polarity, 
-                  label_list, polarity_list, average, negative_sentences_map[filename], positive_sentences_map[filename]]
+        avg_sentences_length = total_sentence_length/len(score_map[filename])
+        sentences_count = len(negative_sentences_map[filename]) + len(positive_sentences_map[filename])
+        result = [filename, 
+                  sentiment_label_map[filename].label, 
+                  sentiment_label_map[filename].polarity, 
+                  label_list, 
+                  polarity_list, 
+                  average, 
+                  negative_sentences_map[filename], 
+                  len(negative_sentences_map[filename]), 
+                  positive_sentences_map[filename], 
+                  len(positive_sentences_map[filename]),
+                  sentences_count,
+                  avg_sentences_length]
         results.append(result)
     return results, fields
 
