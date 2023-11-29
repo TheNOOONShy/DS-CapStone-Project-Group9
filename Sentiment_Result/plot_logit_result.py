@@ -32,7 +32,7 @@ for file_name in file_list:
             p_values = data.pvalues
             if hasattr(data, 'rsquared_adj'):
                 r_squared = data.rsquared_adj
-                title_text = f'Pseudo-R-squared and P-values (Pseudo-R-squared: {r_squared:.4f})'
+                title_text = f'Pseudo-R-squared and P-values (R-squared: {r_squared:.4f})'
             elif hasattr(data, 'prsquared'):
                 r_squared = data.prsquared
                 title_text = f'Pseudo-R-squared and P-values (Pseudo-R-squared: {r_squared:.4f})'
