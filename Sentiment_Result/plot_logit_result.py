@@ -30,7 +30,15 @@ for file_name in file_list:
             # Extract coefficients, p-values, and R-squared
             coefficients = data.params.apply(lambda x: round_to_sf(x, 4))
             p_values = data.pvalues
-            r_squared = data.rsquared if hasattr(data, 'rsquared') else data.prsquared
+            if hasattr(data, 'rsquared_adj'):
+                r_squared = data.rsquared_adj
+                title_text = f'Pseudo-R-squared and P-values (Pseudo-R-squared: {r_squared:.4f})'
+            elif hasattr(data, 'prsquared'):
+                r_squared = data.prsquared
+                title_text = f'Pseudo-R-squared and P-values (Pseudo-R-squared: {r_squared:.4f})'
+            else:
+                r_squared = data.rsquared
+                title_text = f'R-squared and P-values (R-squared: {r_squared:.4f})'
 
             # Plot negative log p-values for each variable
             plt.figure(figsize=(12, len(coefficients) * 0.8))  # Adjust figure size
@@ -38,7 +46,7 @@ for file_name in file_list:
             plt.axvline(x=abs(np.log(0.1)), color='r', linestyle='--', label='p-value = 0.1')
             plt.axvline(x=abs(np.log(0.05)), color='g', linestyle='--', label='p-value = 0.05')
             plt.xlabel('Negative log p-value')
-            plt.title(f'P-values and R-squared (R-squared: {r_squared:.4f})')
+            plt.title(title_text)
             plt.legend()
             plt.tight_layout()  # Adjust layout to prevent label cutoff
 
