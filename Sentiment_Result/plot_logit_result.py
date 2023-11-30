@@ -12,7 +12,35 @@ def round_to_sf(x, sf):
     else:
         return round(x, -int(math.floor(math.log10(abs(x)))) + (sf - 1))
 
+def map_labels(original_labels, label_mapping):
+    return [label_mapping.get(label, label) for label in original_labels]
+
 folder_path = "flair_regression"
+
+# Define label mapping (replace 'original_label': 'human_readable_label' as needed)
+label_mapping = {
+    'Week_Number_4': 'Week Number^4',
+    'Week_Number_3': 'Week Number^3',
+    'Week_Number_2': 'Week Number^2',
+    'Week_Number_1': 'Week Number',
+    "death number": "Weekly Deaths",
+    "Type_Prison": "Is Prison",
+    "case number": "Weekly Cases",
+    "Level_State": "Is State Prison",
+    "Number_of_Deaths": "Weekly Deaths",
+    "Number_of_Cases": "Weekly Cases",
+    "Week Label": "Week Number",
+    "case rate": "Weekly Case Rate",
+    "death rate": "Weekly Death Rate",
+    "NLTK_Compound": "Vader Score",
+    "is_covid_peak": "Is Covid Peak",
+    "LetterCall_Letter": "Is Letter",
+    "length": "Length (chars)",
+    "Level_Federal": "Is Federal Prison",
+    "Type_case number": "Weekly Prison Case Number",
+    "Type_death number": "Weekly Prison Death Number"
+    # Add more mappings as needed
+}
 
 # Get a list of all files in the folder
 file_list = [f for f in os.listdir(folder_path) if f.endswith(".pkl") or f.endswith(".pickle")]
@@ -29,20 +57,33 @@ for file_name in file_list:
 
             # Extract coefficients, p-values, and R-squared
             coefficients = data.params.apply(lambda x: round_to_sf(x, 4))
+            # print(coefficients.index)
+            # Map original labels to human-readable labels
+            readable_labels = map_labels(list(coefficients.index), label_mapping)
+            # print('here')
+
             p_values = data.pvalues
             if hasattr(data, 'rsquared_adj'):
                 r_squared = data.rsquared_adj
-                title_text = f'Pseudo-R-squared and P-values (R-squared: {r_squared:.4f})'
+                if "negative_count" in file_path:
+                    title_text = f'Weekly Negative Count Results (R-squared: {r_squared:.4f})'
+                elif "positive" in file_path:
+                    title_text = f'Weekly Positive Count Results (R-squared: {r_squared:.4f})'
+                elif "total_count" in file_path:
+                    title_text = f'Weekly Total Count Results (R-squared: {r_squared:.4f})'
             elif hasattr(data, 'prsquared'):
                 r_squared = data.prsquared
-                title_text = f'Pseudo-R-squared and P-values (Pseudo-R-squared: {r_squared:.4f})'
-            else:
-                r_squared = data.rsquared
-                title_text = f'R-squared and P-values (R-squared: {r_squared:.4f})'
+                title_text = f'Logistic Regression Results (Pseudo-R-squared: {r_squared:.4f})'
+
+            if "jail" in file_path:
+                title_text += " (jail)"
+            elif "prison" in file_path:
+                title_text += " (prison)"
 
             # Plot negative log p-values for each variable
             plt.figure(figsize=(12, len(coefficients) * 0.8))  # Adjust figure size
-            bars = plt.barh(coefficients.index + ' (' + coefficients.astype(str) + ')', -1 * np.log(p_values), color='skyblue')
+            labels = [readable_labels[i] + ' (' + coefficients.astype(str)[i] + ')' for i in range(len(readable_labels))]
+            bars = plt.barh(labels, -1 * np.log(p_values), color='skyblue')
             plt.axvline(x=abs(np.log(0.1)), color='r', linestyle='--', label='p-value = 0.1')
             plt.axvline(x=abs(np.log(0.05)), color='g', linestyle='--', label='p-value = 0.05')
             plt.xlabel('Negative log p-value')
@@ -51,7 +92,7 @@ for file_name in file_list:
             plt.tight_layout()  # Adjust layout to prevent label cutoff
 
             # Add actual p-value labels to the right of the bars, outside of the bars
-            for bar, p_value in zip(bars, p_values):
+            for bar, p_value, readable_label in zip(bars, p_values, readable_labels):
                 plt.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height() / 2, f'{p_value:.4f}', ha='left', va='center', color='black')
 
             # Save the plot to a file with the same name as the data file
