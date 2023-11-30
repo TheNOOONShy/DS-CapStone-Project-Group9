@@ -37,8 +37,10 @@ label_mapping = {
     "LetterCall_Letter": "Is Letter",
     "length": "Length (chars)",
     "Level_Federal": "Is Federal Prison",
-    "Type_case number": "Weekly Prison Case Number",
-    "Type_death number": "Weekly Prison Death Number"
+    "Type_case number": "Weekly Case Number",
+    "Type_death number": "Weekly Death Number",
+    "Specific_Facility_Case_Rate": "Weekly Case Rate",
+    "Specific_Facility_Death_Rate": "Weekly Death Rate"
     # Add more mappings as needed
 }
 
@@ -75,9 +77,9 @@ for file_name in file_list:
                 r_squared = data.prsquared
                 title_text = f'Logistic Regression Results (Pseudo-R-squared: {r_squared:.4f})'
 
-            if "jail" in file_path:
+            if "jail" in file_path or "Jails" in file_path:
                 title_text += " (jail)"
-            elif "prison" in file_path:
+            elif "prison" in file_path or "Prisons" in file_path:
                 title_text += " (prison)"
 
             # Plot negative log p-values for each variable
