@@ -37,10 +37,12 @@ label_mapping = {
     "LetterCall_Letter": "Is Letter",
     "length": "Length (chars)",
     "Level_Federal": "Is Federal Prison",
-    "Type_case number": "Weekly Case Number",
-    "Type_death number": "Weekly Death Number",
+    "Type_case number": "Weekly Prison Case Number",
+    "Type_death number": "Weekly Prison Death Number",
     "Specific_Facility_Case_Rate": "Weekly Case Rate",
-    "Specific_Facility_Death_Rate": "Weekly Death Rate"
+    "Specific_Facility_Death_Rate": "Weekly Death Rate",
+    "Prison Death Number": "Weekly Death Number",
+    "Prison Case Number": "Weekly Case Number"
     # Add more mappings as needed
 }
 
