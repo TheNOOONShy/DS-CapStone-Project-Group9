@@ -12,48 +12,38 @@ def round_to_sf(x, sf):
     else:
         return round(x, -int(math.floor(math.log10(abs(x)))) + (sf - 1))
 
-def map_labels(original_labels, label_mapping):
+def map_labels(original_labels):
+    label_mapping = {
+        'Week_Number_4': 'Week Number^4',
+        'Week_Number_3': 'Week Number^3',
+        'Week_Number_2': 'Week Number^2',
+        'Week_Number_1': 'Week Number',
+        "death number": "Weekly Deaths",
+        "Type_Prison": "Is Prison",
+        "case number": "Weekly Cases",
+        "Level_State": "Is State Prison",
+        "Number_of_Deaths": "Weekly Deaths",
+        "Number_of_Cases": "Weekly Cases",
+        "Week Label": "Week Number",
+        "case rate": "Weekly Case Rate",
+        "death rate": "Weekly Death Rate",
+        "NLTK_Compound": "Vader Score",
+        "is_covid_peak": "Is Covid Peak",
+        "LetterCall_Letter": "Is Letter",
+        "length": "Length (chars)",
+        "Level_Federal": "Is Federal Prison",
+        "Type_case number": "Weekly Prison Case Number",
+        "Type_death number": "Weekly Prison Death Number",
+        "Specific_Facility_Case_Rate": "Weekly Case Rate",
+        "Specific_Facility_Death_Rate": "Weekly Death Rate",
+        "Prison Death Number": "Weekly Death Number",
+        "Prison Case Number": "Weekly Case Number",
+        "Prison or County Population": "Size"
+        # Add more mappings as needed
+    }
     return [label_mapping.get(label, label) for label in original_labels]
 
-folder_path = "flair_regression"
-
-# Define label mapping (replace 'original_label': 'human_readable_label' as needed)
-label_mapping = {
-    'Week_Number_4': 'Week Number^4',
-    'Week_Number_3': 'Week Number^3',
-    'Week_Number_2': 'Week Number^2',
-    'Week_Number_1': 'Week Number',
-    "death number": "Weekly Deaths",
-    "Type_Prison": "Is Prison",
-    "case number": "Weekly Cases",
-    "Level_State": "Is State Prison",
-    "Number_of_Deaths": "Weekly Deaths",
-    "Number_of_Cases": "Weekly Cases",
-    "Week Label": "Week Number",
-    "case rate": "Weekly Case Rate",
-    "death rate": "Weekly Death Rate",
-    "NLTK_Compound": "Vader Score",
-    "is_covid_peak": "Is Covid Peak",
-    "LetterCall_Letter": "Is Letter",
-    "length": "Length (chars)",
-    "Level_Federal": "Is Federal Prison",
-    "Type_case number": "Weekly Prison Case Number",
-    "Type_death number": "Weekly Prison Death Number",
-    "Specific_Facility_Case_Rate": "Weekly Case Rate",
-    "Specific_Facility_Death_Rate": "Weekly Death Rate",
-    "Prison Death Number": "Weekly Death Number",
-    "Prison Case Number": "Weekly Case Number",
-    "Prison or County Population": "Population"
-    # Add more mappings as needed
-}
-
-# Get a list of all files in the folder
-file_list = [f for f in os.listdir(folder_path) if f.endswith(".pkl") or f.endswith(".pickle")]
-
-# Iterate through each file
-for file_name in file_list:
-    file_path = os.path.join(folder_path, file_name)
-
+def plot(file):
     try:
         # Try to open the file using pickle
         with open(file_path, 'rb') as file:
@@ -109,3 +99,15 @@ for file_name in file_list:
     except Exception as e:
         # Print an error message if the file cannot be opened
         print(f"{file_name} cannot be opened. Error: {e}")
+
+folder_path = "flair_regression"
+
+
+# Get a list of all files in the folder
+file_list = [f for f in os.listdir(folder_path) if f.endswith(".pkl") or f.endswith(".pickle")]
+
+# Iterate through each file
+for file_name in file_list:
+    file_path = os.path.join(folder_path, file_name)
+
+    plot(file_path)
