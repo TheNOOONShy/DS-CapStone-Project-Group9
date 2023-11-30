@@ -12,7 +12,7 @@ merged_df = pd.get_dummies(merged_df, columns=['Type'], drop_first=True)
 merged_df = merged_df[merged_df['Type_Prison'] == 0]
 
 # Define the independent variables (features) for Positive_Count for jails
-independent_vars_positive_jails = ['Week Number', 'Prison Case Number', 'Prison Death Number']
+independent_vars_positive_jails = ['Week Number', 'Prison Case Number', 'Prison Death Number', "Prison or County Population", "case rate", "death rate"]
 
 # Add a constant term for the intercept
 X_positive_jails = sm.add_constant(merged_df[independent_vars_positive_jails])

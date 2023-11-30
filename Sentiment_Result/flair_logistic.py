@@ -36,7 +36,16 @@ def run_facility(facility_name, data):
             print(f"Skipping {facility_name} as it does not have 2 different weeks of data")
     # Specify columns for X (including "Letter/Call", "length", and excluding rates, "Percent Occupied", and "Type_Jail")
 
-    columns_to_include = ["case number", "case rate","death number", "death rate", "length", "Week Label","NLTK_Compound","is_covid_peak"]
+    columns_to_include = ["case number",
+    #"case rate",
+    "death number",
+    # "death rate", 
+    "length",
+    "Week Label",
+    "NLTK_Compound",
+    "is_covid_peak",
+    "Prison or County Population"]
+    # ]
 
     letter_call_dummy = pd.get_dummies(facility_data["Letter/Call"], prefix="LetterCall", drop_first=True)
     # for a in letter_call_dummy["LetterCall_Letter"]:

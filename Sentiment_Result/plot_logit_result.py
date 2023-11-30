@@ -42,7 +42,8 @@ label_mapping = {
     "Specific_Facility_Case_Rate": "Weekly Case Rate",
     "Specific_Facility_Death_Rate": "Weekly Death Rate",
     "Prison Death Number": "Weekly Death Number",
-    "Prison Case Number": "Weekly Case Number"
+    "Prison Case Number": "Weekly Case Number",
+    "Prison or County Population": "Population"
     # Add more mappings as needed
 }
 
