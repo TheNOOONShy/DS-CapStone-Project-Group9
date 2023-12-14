@@ -37,11 +37,7 @@ We are looking at transcripts from prisoners and those in jail about covid condi
 
 
 ## Repository Structure
-Provide a detailed description of the repository structure:
-- `/data` for all raw and auxiliary data.
-- `/scripts` for code used in data cleaning, sentiment analysis, and further detailed analysis.
-- `/analysis` for notebooks and reports detailing the analysis process.
-- `/results` for the final compiled datasets and results of the analyses.
+????
 
 
 ## How to Navigate the Repository
@@ -52,7 +48,7 @@ Instructions on how to navigate the repository, including where to find the data
 Below are descriptions of each column in the dataset:
 
 <details>
-<summary>View `weeklydata.csv` Description</summary>
+<summary>View `Summary_Weekly.csv` Description</summary>
 
 
 #### **file_name**
@@ -80,7 +76,7 @@ Below are descriptions of each column in the dataset:
 - The length is measured in terms of the number of characters (including spaces) or words, depending on the transcript's specific configuration.
 
 
-#### Flair_Sentiment_Indicator
+#### 
 
  **Description**: 
 - The "Flair_Sentiment_Indicator" column is a binary representation of the sentiment analysis outcomes as determined by the "FlairSentiment" column. This column simplifies the sentiment classification into a numeric format.
