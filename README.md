@@ -414,6 +414,78 @@ The "is_Death_Peak" column is used to indicate whether a specific week is a peak
 
 </details>
 
+<details>
+<summary>View `\Sentiment_Result\SummaryTableSupport\Location_Facilities.csv` Description</summary>
+
+This table is utilized in the `Summary_Weekly.csv` file.
+
+### `Location`
+
+**Description**:  
+The "Location" column indicates the name of the facility associated with each transcript. 
+
+**Details**:  
+- The names listed in this column are as provided by the sponsors of the data.
+
+### `County`
+
+**Description**:  
+The "County" column identifies the county in which the facility associated with each transcript is located.
+
+**Details**:  
+- This column lists the name of the county where each facility, whether a jail or a prison, is situated.
+
+### `Level`
+
+**Description**:  
+The "Level" column categorizes each facility associated with the transcripts according to its administrative classification. This classification reflects the governance level of the facility, providing insight into the type of jurisdiction it falls under.
+
+**Categories**:  
+- The values in this column can be "State", "County", or "Federal", each indicating the administrative level of the facility from which the transcript originates.
+- "State" refers to facilities governed at the state level.
+- "County" denotes facilities that are administered by local county authorities.
+- "Federal" implies facilities under the jurisdiction of the federal government.
+
+
+### `Type`
+
+**Description**:  
+The "Type" column specifies the type of facility associated with each transcript. This categorization helps in identifying the nature of the institution from which the transcript was sourced.
+
+**Categories**:  
+- The column includes three primary types of facilities: "Department", "Jail", and "Prison".
+- "Department" generally is "Fire Camps"
+- "Jail" indicates a local detention facility typically used for short-term incarceration or for individuals awaiting trial or sentencing.
+- "Prison" denotes a state or federal facility used for long-term incarceration, usually for individuals who have been convicted of a crime.
+
+### `Name in CDCR`
+
+**Description**:  
+The "Name in CDCR" column specifies the official name of the facility associated with each transcript, as used in the California Department of Corrections and Rehabilitation (CDCR) COVID Data. This name is the formal designation of the facility in CDCR records and reports.
+
+### `Prison/County Population`
+
+**Description**:  
+The "Prison/County Population" column indicates the population relevant to the location from which each transcript originates. The population figure provided depends on whether the transcript is associated with a jail or a prison.
+
+**Details**:  
+- When a transcript originates from a jail, this column reflects the population of the corresponding county.
+- Conversely, for transcripts associated with a prison, the population figure represents the inmate count of that prison as of November 2023.
+
+### `Prison Percent Occupied`
+
+**Description**:  
+The "Prison Percent Occupied" column indicates the current occupancy rate of the prison. This rate is expressed as a percentage, calculated relative to the total designed capacity of the prison.
+
+**Calculation**:  
+- The occupancy rate is calculated as the current number of inmates divided by the prison's total capacity, multiplied by 100 to convert it into a percentage.
+- An occupancy rate of 100% signifies that the prison is at its full designed capacity. 
+- Rates exceeding 100% indicate that the prison is operating beyond its intended capacity.
+
+
+</details>
+
+
 ## Acknowledgments
 
 Special thanks to the individuals and organizations whose contributions have been instrumental in this project:
