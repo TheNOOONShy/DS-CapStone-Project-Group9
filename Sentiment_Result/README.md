@@ -41,7 +41,7 @@ IS_PRISON = False  #True means prison only, False means jails only
 creates models that are saved into pickle form, and displays in command line
 
 
-##lightgbm_importance.py
+## lightgbm_importance.py
 (this is for XGBoost importance, bad naming of file)
 run python lightgbm_importance.py
 
@@ -56,7 +56,7 @@ IS_PRISON = False  #True means prison only, False means jails only
 
 automatically saves feature importances into xgboost_feature_importance
 
-##plot_logit_result.py
+## plot_logit_result.py
 
 run python plot_logit_result.py
 
