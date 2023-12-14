@@ -51,23 +51,25 @@ Below are descriptions of each column in the dataset:
 <summary>View `Summary_Weekly.csv` Description</summary>
 
 
-#### **file_name**
+#### `file_name`
 
 **Description**: 
 - This column is titled "File Name" and contains the names of the transcript files. Each entry in this column corresponds to a unique file, representing the source document for the associated data.
 
+**Note**
+- This table includes only the files with names ending in `Full.txt`, indicating that it contains exclusively the complete versions of the transcripts. It does not encompass files that are fragments or other variants from the original collection provided.
 
 
-#### is_call
+#### `is_call`
 
- **Description**: 
+**Description**: 
 - The column named "is_call" indicates the nature of the transcript. This column uses a binary system to differentiate between calls and letters.
 
 **Values**: 
 - In this column, a value of `1` signifies that the transcript originates from a call, whereas a value of `0` indicates that the transcript is from a letter.
 
 
-#### length
+#### `length`
 
 **Description**: 
 - This column, labeled "length", represents the length of the transcript text. It quantifies the amount of content in each transcript.
@@ -85,7 +87,7 @@ Below are descriptions of each column in the dataset:
  - A value of `1` in this column indicates a positive sentiment, corresponding to instances where "FlairSentiment" is labeled as "POSITIVE". Conversely, a value of `0` signifies a negative sentiment, corresponding to instances where "FlairSentiment" is "NEGATIVE".
 
 
-#### FlairSentiment
+#### `FlairSentiment`
 
 **Description**: 
 - The "FlairSentiment" column represents the sentiment orientation of each transcript as determined by the Flair natural language processing tool. This column categorizes the overall emotional tone conveyed in the transcript.
@@ -93,7 +95,7 @@ Below are descriptions of each column in the dataset:
 **Values**:  
 - Sentiments in this column are typically labeled as "POSITIVE" or "NEGATIVE", reflecting the general sentiment detected in the text of the transcript. Those labels are derived from an automated sentiment analysis process.
 
-#### FlairPolarity
+#### `FlairPolarity`
 
 **Description**:  
 - The "FlairPolarity" column quantifies the likelihood of a transcript being either positive or negative. This is represented as a numerical value, reflecting the degree of sentiment polarity detected in the transcript.
@@ -105,7 +107,7 @@ Below are descriptions of each column in the dataset:
 **Calculation**: 
 - These values are the result of sentiment analysis performed by the Flair tool, which calculates the probability of the sentiment being positive or negative, based on the content of the transcript.
 
-#### NLTK_Negative
+#### `NLTK_Negative`
 
 **Description**:  
 The "NLTK_Negative" column represents the negative sentiment score of each transcript, as determined by the Natural Language Toolkit (NLTK). This score quantifies the extent of negative sentiment expressed in the transcript.
@@ -115,7 +117,7 @@ The "NLTK_Negative" column represents the negative sentiment score of each trans
 - Higher scores in this column indicate a stronger presence of negative sentiment within the transcript.
 
 
-#### NLTK_Neutral
+#### `NLTK_Neutral`
 
 **Description**:  
 The "NLTK_Neutral" column indicates the neutral sentiment score of each transcript, as calculated by the Natural Language Toolkit (NLTK). This score measures the level of neutral or non-emotional content present in the transcript.
@@ -125,7 +127,7 @@ The "NLTK_Neutral" column indicates the neutral sentiment score of each transcri
 - A higher score in this column suggests a greater presence of neutral language or a lack of strong emotional sentiment in the transcript.
 
 
-#### NLTK_Positive
+#### `NLTK_Positive`
 
 **Description**:  
 The "NLTK_Positive" column reflects the positive sentiment score of each transcript, as determined by the Natural Language Toolkit (NLTK). This score represents the degree to which positive emotions or attitudes are expressed in the transcript.
@@ -135,7 +137,7 @@ The "NLTK_Positive" column reflects the positive sentiment score of each transcr
 - A higher score in this column indicates a stronger presence of positive sentiment, suggesting a more optimistic or affirmative tone in the transcript.
 
 
-#### NLTK_Compound
+#### `NLTK_Compound`
 
 **Description**:  
 The "NLTK_Compound" column presents the compound sentiment score for each transcript, as calculated by the Natural Language Toolkit (NLTK). This score is a composite measure that encapsulates the overall sentiment expressed in the transcript, combining positive, negative, and neutral evaluations.
@@ -145,7 +147,7 @@ The "NLTK_Compound" column presents the compound sentiment score for each transc
 - The compound score ranges from -1 to 1, with negative values indicating overall negative sentiment, positive values indicating overall positive sentiment, and values near zero suggesting a more neutral or balanced sentiment.
 
 
-#### Date
+#### `Date`
 
 **Description**:  
 The "Date" column is reflects the specific day when the transcript was created.
@@ -154,7 +156,7 @@ The "Date" column is reflects the specific day when the transcript was created.
 - Dates are formatted in a standard date format, YYYY-MM-DD (Year-Month-Day)
 
 
-#### Facility Name
+#### `Facility Name`
 
 **Description**:  
 The "Facility Name" column indicates the name of the facility associated with each transcript. 
@@ -164,13 +166,13 @@ The "Facility Name" column indicates the name of the facility associated with ea
 
 
 
-#### CDCR Official Name
+#### `CDCR Official Name`
 
 **Description**:  
 The "CDCR Official Name" column specifies the official name of the facility associated with each transcript, as used in the California Department of Corrections and Rehabilitation (CDCR) COVID Data. This name is the formal designation of the facility in CDCR records and reports.
 
 
-#### Prison or County Population
+#### `Prison or County Population`
 
 **Description**:  
 The "Prison or County Population" column indicates the population relevant to the location from which each transcript originates. The population figure provided depends on whether the transcript is associated with a jail or a prison.
@@ -180,7 +182,7 @@ The "Prison or County Population" column indicates the population relevant to th
 - Conversely, for transcripts associated with a prison, the population figure represents the inmate count of that prison as of November 2023.
 
 
-#### County
+#### `County`
 
 **Description**:  
 The "County" column identifies the county in which the facility associated with each transcript is located.
@@ -188,7 +190,7 @@ The "County" column identifies the county in which the facility associated with 
 **Details**:  
 - This column lists the name of the county where each facility, whether a jail or a prison, is situated.
 
-#### Level
+#### `Level`
 
 **Description**:  
 The "Level" column categorizes each facility associated with the transcripts according to its administrative classification. This classification reflects the governance level of the facility, providing insight into the type of jurisdiction it falls under.
@@ -200,7 +202,7 @@ The "Level" column categorizes each facility associated with the transcripts acc
 - "Federal" implies facilities under the jurisdiction of the federal government.
 
 
-#### Type
+#### `Type`
 
 **Description**:  
 The "Type" column specifies the type of facility associated with each transcript. This categorization helps in identifying the nature of the institution from which the transcript was sourced.
@@ -211,7 +213,7 @@ The "Type" column specifies the type of facility associated with each transcript
 - "Jail" indicates a local detention facility typically used for short-term incarceration or for individuals awaiting trial or sentencing.
 - "Prison" denotes a state or federal facility used for long-term incarceration, usually for individuals who have been convicted of a crime.
 
-#### Week Label
+#### `Week Label`
 
 **Description**:  
 The "Week Label" column is designed to correlate each record with a specific time period. This labeling facilitates the association of each record to a designated week within a defined timeframe.
@@ -221,7 +223,7 @@ The "Week Label" column is designed to correlate each record with a specific tim
 - In this reference table, the week starting from December 30, 2019, to January 5, 2020, is labeled as "week 0". Subsequent weeks follow a natural weekly progression, each assigned a unique sequential number.
 
 
-#### Start Date
+#### `Start Date`
 
 **Description**:  
 The "Start Date" column denotes the beginning date of the week as identified in the "Week Label" column. It marks the first day of the specific week to which the record is attributed.
@@ -234,7 +236,7 @@ These "Start Date"and "End Date" columns are directly tied to the "Week Label" c
 
 
 
-#### End Date
+#### `End Date`
 
 **Description**:  
  The "End Date" column denotes the last day of the week in the "Week Label" column. 
@@ -247,7 +249,7 @@ These "Start Date"and "End Date" columns are directly tied to the "Week Label" c
 These "Start Date"and "End Date" columns are directly tied to the "Week Label" column, providing precise date ranges for each labeled week. For instance, if a record is assigned to "week 0" in the "Week Label" column, the "Start Date" and "End Date" would correspond to the start and end dates of that particular week.
  
 
-#### Case Number
+#### `Case Number`
 
 **Description**:  
 The "Case Number" column quantifies the number of new COVID-19 cases identified within the time frame of each week as defined by the "Week Label". It reflects the total count of newly reported COVID-19 cases for that specific week.
@@ -257,7 +259,7 @@ The "Case Number" column quantifies the number of new COVID-19 cases identified 
 - Each value in the "Case Number" column represents the new cases that emerged during the week designated by the "Week Label".
 
 
-#### Case Rate
+#### `Case Rate`
 
 **Description**:  
 The "Case Rate" column represents the rate of new COVID-19 cases per week, calculated as the number of new cases (from the "Case Number" column) divided by the population(from the "Population" column) .
@@ -267,7 +269,7 @@ The "Case Rate" column represents the rate of new COVID-19 cases per week, calcu
 - For records related to a prison, the population figure is the inmate count of that prison as of November 2023.
 
 
-#### Death Number
+#### `Death Number`
 
 **Description**:  
 The "Death Number" column indicates the total number of new COVID-19 related deaths that occurred within each week as defined by the "Week Label". This figure represents the count of newly reported fatalities due to COVID-19 for that specific week.
@@ -276,7 +278,7 @@ The "Death Number" column indicates the total number of new COVID-19 related dea
 - The data in this column is directly linked to the corresponding "Week Label", providing a weekly record of the death associated with the COVID-19 pandemic.
 - Each value in the "Death Number" column reflects the number of deaths attributed to COVID-19 during the designated week.
 
-#### Death Rate
+#### `Death Rate`
 
 **Description**:  
 The "Death Rate" column calculates the rate of new COVID-19 related deaths per week, obtained by dividing the number of new deaths (from the "Death Number" column) by the relevant population(from the "Population" column).
@@ -286,7 +288,7 @@ The "Death Rate" column calculates the rate of new COVID-19 related deaths per w
 - For records related to a prison, the population figure is the inmate count of that prison as of November 2023.
 
 
-#### Prison Percent Occupied
+#### `Prison Percent Occupied`
 
 **Description**:  
 The "Prison Percent Occupied" column indicates the current occupancy rate of the prison. This rate is expressed as a percentage, calculated relative to the total designed capacity of the prison.
@@ -296,7 +298,7 @@ The "Prison Percent Occupied" column indicates the current occupancy rate of the
 - An occupancy rate of 100% signifies that the prison is at its full designed capacity. 
 - Rates exceeding 100% indicate that the prison is operating beyond its intended capacity.
 
-#### IsOverCapacity
+#### `IsOverCapacity`
 
 **Description**:  
 The "IsOverCapacity" column serves as an indicator of whether a prison's current occupancy rate exceeds its designed capacity. It provides a straightforward binary representation of capacity overutilization.
@@ -306,7 +308,7 @@ The "IsOverCapacity" column serves as an indicator of whether a prison's current
 - A value of `0` indicates that the prison is within or below its designed capacity.
 - Empty represent cases with no data available, which most of is jail facilities.
 
-### OverCapacityAmount
+### `OverCapacityAmount`
 
 **Description**:  
 The "OverCapacityAmount" column quantifies the extent to which a prison's current occupancy exceeds or falls short of its designed capacity. This column provides numerical values that reflect the magnitude of overcapacity or undercapacity.
@@ -317,17 +319,17 @@ The "OverCapacityAmount" column quantifies the extent to which a prison's curren
 - Empty is used where data is not available.
 
 
-#### is_Covid_Peak
+#### `is_Covid_Peak`
 
 **Description**:  
 The "is_Covid_Peak" column indicates whether a specific week (as denoted by the "Week Label") represents a peak period of COVID-19 cases. A week is marked as a peak period (marked as 1) when the number of new COVID-19 cases in California for that week exceeds a certain threshold. This threshold is defined as the median of the weekly new cases plus the standard deviation of the weekly new cases in California's COVID-19 data.
 
-#### is_Omicron
+#### `is_Omicron`
 
 **Description**:  
 The "is_Omicron" column identifies the weeks that fall within the duration of the Omicron variant's prevalence, as declared by the World Health Organization (WHO). 
 
-#### is_Death_Peak
+#### `is_Death_Peak`
 
 **Description**:  
 The "is_Death_Peak" column is used to indicate whether a specific week is a peak period for COVID-19 related deaths. Similar to "is_Covid_Peak", this column marks a week as a peak death period (makes as 1) if the number of COVID-19 related deaths in that week is significantly higher than average, based on specific criteria or thresholds relevant to the mortality data.
