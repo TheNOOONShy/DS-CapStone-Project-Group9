@@ -1,0 +1,773 @@
+file_name,date,prison_name,tags
+Avenal_20201030_7_01_FULL,20201030,Avenal,['']
+Avenal_20201105_07_12_FULL,20201105,Avenal,['']
+Avenal_20201105_08_11_FULL,20201105,Avenal,['']
+Avenal_20201105_0830_FULL,20201105,Avenal,['']
+Avenal_20201106_623_FULL,20201106,Avenal,['']
+Avenal_20201110_08_13_FULL,20201110,Avenal,['']
+Avenal_20201110_7_51_FULL,20201110,Avenal,['']
+Avenal_20201113_7_18_FULL,20201113,Avenal,['']
+Avenal_20210317_8_31_Full,20210317,Avenal,['']
+Avenal_20210326_6_51_FULL,20210326,Avenal,['']
+Avenal_20210518_5_22_FULL_Infection_PrisonConditions_Stress,20210518,Avenal,"['Infection', ' Prison Conditions', ' Stress']"
+Calipatria_20210122_06_48_FULL,20210122,Calipatria,['']
+Calipatria_20210217_07_39_FULL,20210217,Calipatria,['']
+Calipatria_20210222_3_32_FULL_PrisonConditions,20210222,Calipatria,"['Prison Conditions', ' Program', ' Stress']"
+Centinela_20210121_05_38_FULL,20210121,Centinela,['']
+Centinela_20210412_57555_FULL,20210412,Centinela,['']
+Centinela_20210420_705_Full,20210420,Centinela,['']
+Chino_20201211_0615_FULL,20201211,Chino,['']
+Chowchilla_20210326_801_FULL,20210326,Chowchilla,['']
+Chuckawalla_20201105_06_41_FULL,20201105,Chuckawalla,['']
+Chuckawalla_20201105_0728_FULL,20201105,Chuckawalla,['']
+Chuckawalla_20201106_05_42_FULL,20201106,Chuckawalla,['']
+Chuckawalla_20201106_07_07_FULL,20201106,Chuckawalla,['']
+Chuckawalla_20201106_07_22_FULL,20201106,Chuckawalla,['']
+Chuckawalla_20201109_05_04_FULL,20201109,Chuckawalla,['']
+Chuckawalla_20201109_06_57_FULL,20201109,Chuckawalla,['']
+Chuckawalla_20201120_06_34_FULL,20201120,Chuckawalla,['']
+Chuckawalla_20201127_06_21_FULL,20201127,Chuckawalla,['']
+Chuckawalla_20201127_06_39_FULL,20201127,Chuckawalla,['']
+Chuckawalla_20201127_06_59_FULL,20201127,Chuckawalla,['']
+Chuckawalla_20201203_06_01_PrisonConditions1_Infection,20201203,Chuckawalla,['Prison Conditions']
+Chuckawalla_20201208_06_50_FULL,20201208,Chuckawalla,['']
+Chuckawalla_20201211_05_20_FULL,20201211,Chuckawalla,['']
+Chino_20201208_05_53_FULL,20201208,Chino,['']
+Chino_20201209_05_35_FULL_PrisonConditions,20201209,Chino,['Prison Conditions']
+Chino_20201216_06_02_FULL,20201216,Chino,['']
+CIW_20201207_07_46_FULL,20201207,CIW,"['Stress', ' Prison Conditions', ' Featured']"
+CIW_20210324_06_51_FULL,20210324,CIW,['']
+CMC_20210212_0551_FULL,20210212,CMC,['']
+CMC_20210212_07_21_FULL,20210212,CMC,['']
+Corcoran_20201103_07_39_FULL,20201103,Corcoran,['']
+Corcoran_20210105_07_43_FULL,20210105,Corcoran,['']
+Corcoran_20210421_637_FULL_Infection_Family_Programs,20210421,Corcoran,"['Infection', ' Family', ' Programs']"
+Corcoran_20210428_320_FULL,20210428,Corcoran,['']
+Corcoran_20210518_6_21_FULL,20210518,Corcoran,['']
+Corcoran_20210824_21225_FULL,20210824,Corcoran,['']
+CSATF_20210209_625_FULL,20210209,CSATF,['']
+Donovan_20201004_05_00_FULL,20201004,Donovan,['']
+Donovan_20201130_06_49_FULL,20201130,Donovan,['']
+Donovan_20201201_05_00_FULL,20201201,Donovan,['']
+Donovan_20201201_2_36,20201201,Donovan,"['Infection', ' Prison Conditions']"
+Donovan_20201202_2_59,20201202,Donovan,['Prison Conditions']
+Donovan_20201202_5_31_FULL,20201202,Donovan,['']
+Donovan_20201209_8_39_FULL,20201209,Donovan,"['Family', ' Stress', ' Program']"
+Donovan_20210104_603_PrisonConditions,20210104,Donovan,['Prison Conditions']
+Donovan_20210107_01_16_FULL,20210107,Donovan,['']
+Donovan_20210111_01_05_Infection,20210111,Donovan,['Infection']
+Donovan_20210115_245_FULL,20210115,Donovan,['']
+Donovan_20210503_6_27_FULL_Infection_PrisonConditions,20210503,Donovan,"['Infection', ' Prison Conditions']"
+Donovan_20210507_5_59_P1_Full,20210507,Donovan,['']
+Donovan_20210507_5_59_P2_FULL,20210507,Donovan,['']
+Donovan_20210514_6_29_Full,20210514,Donovan,['']
+Fresno_Main_20210826_59372_P1_FULL,20210826,Fresno_Main,['']
+Fresno_Main_20210826_59372_P2_FULL,20210826,Fresno_Main,['']
+Fresno_Main_20210901_87115_FULL,20210901,Fresno_Main,['']
+Fresno_Main_20210910_29668_FULL,20210910,Fresno_Main,['']
+Fresno_Main_20210910_56264_FULL,20210910,Fresno_Main,['']
+Fresno_Main_20210916_40145_FULL,20210916,Fresno_Main,['']
+Ironwood_20201109_06_38_FULL,20201109,Ironwood,['']
+Ironwood_20201118_2_04_Stress,20201118,Ironwood,['Stress']
+KernValley_20210427_5_59_Full,20210427,KernValley,['']
+Mule Creek_20201228_07_03_FULL,20201228,Mule Creek,['']
+Mule Creek_20201228_621_FULL,20201228,Mule Creek,['']
+Mule Creek_20201229_07_32_FULL,20201229,Mule Creek,['']
+MuleCreek_20210521_6_47_Full,20210521,MuleCreek,['']
+NewFolsom_20210421_7_30_FULL,20210421,NewFolsom,['']
+NewFolsom_20210503_813_FULL,20210503,NewFolsom,['']
+NewFolsom_20210513_7_16_FULL,20210513,NewFolsom,['']
+NewFolsom_20211117_47746_FULL,20211117,NewFolsom,['']
+NewFolsom_20211123_82594_FULL,20211123,NewFolsom,['']
+Norco_20210218_10_04_FULL_Stress,20210218,Norco,['Stress']
+Orange_Central_20210511_6_20_FULL,20210511,Orange_Central,['']
+Orange_TheoLacy_20210422_8_05_FULL,20210422,Orange_TheoLacy,['']
+Orange_TheoLacy_20210428_7_37_FULL,20210428,Orange_TheoLacy,['']
+PelicanBay_20210520_6_09_FULL,20210520,PelicanBay,['']
+PleasantValley_20210222_8_04_Full,20210222,PleasantValley,['']
+Riverside_Benoit_20210604_503_FULL,20210604,Riverside_Benoit,['']
+Riverside_Blythe_20210607_646_FULL,20210607,Riverside_Blythe,['']
+Riverside_Byrd_20210604_627_FULL,20210604,Riverside_Byrd,['']
+Riverside_Presley_20210603_525_FULL,20210603,Riverside_Presley,['']
+Riverside_Smith_20210601_7_43_FULL,20210601,Riverside_Smith,['']
+Riverside_Smith_20210609_829_FULL,20210609,Riverside_Smith,['']
+Riverside_Smith_20210610_806_FULL,20210610,Riverside_Smith,['']
+Riverside_Smith_20210610_826_FULL,20210610,Riverside_Smith,['']
+Riverside_Smith_20210614_737_FULL,20210614,Riverside_Smith,['']
+Riverside_Smith_20210616_801_FULL,20210616,Riverside_Smith,['']
+Riverside_Smith_20210617_519_FULL_Infection,20210617,Riverside_Smith,['Infection']
+Riverside_unspecified_20210622_0731_FULL,20210622,Riverside_unspecified,['']
+SalinasValley_20210521_6_20_Full,20210521,SalinasValley,['']
+San Quentin_20201113_734_FULL,20201113,San Quentin,['']
+San_Quentin_20201103_647_FULL,20201103,San_Quentin,['']
+San_Quentin_20210121_07_10_FULL,20210121,San_Quentin,['Infection']
+SanQuentin_20201027_06_05_FULL,20201027,SanQuentin,['']
+Solano_20200805_05_00_FULL,20200805,Solano,['']
+Solano_20201012_0935_FULL,20201012,Solano,['']
+Solano_20201206_08_30_FULL_PrisonConditions,20201206,Solano,"['Prison Conditions', ' Infections']"
+Solano_20201214_7_54_FULL,20201214,Solano,['']
+Solano_20201214_8_13_FULL,20201214,Solano,['']
+Solano_20201217_05_27_FULL_3calls,20201217,Solano,['']
+Solano_20201217_619_FULL,20201217,Solano,['']
+Solano_20201221_05_31_FULL,20201221,Solano,['']
+Solano_20210123_03_05_FULL,20210123,Solano,['']
+Solano_20210308_05_50_FULL,20210308,Solano,['']
+Solano_20210322_05_04_FULL,20210322,Solano,['']
+Solano_20210326_20348_FULL,20210326,Solano,['']
+Solano_20201221_06_00_FULL,20201221,Solano,['']
+Soledad_20201026_08_14_FULL,20201026,Soledad,['']
+Soledad_20201027_07_31_FULL,20201027,Soledad,['']
+Soledad_20201228_159_Full_PrisonConditions,20201228,Soledad,['Prison Conditions']
+Soledad_20210208_08_30_FULL,20210208,Soledad,['Featured']
+Tehachapi_20201202_2_50_FULL_Programs_Stress_Family_PrisonConditions,20201202,Tehachapi,"['Programs', ' Stress', ' Family', ' Prison conditions']"
+Tehachapi_20210111_441_FULL_PrisonConditions,20210111,Tehachapi,['Prison Conditions']
+Tehachapi_20210119_0740_FULL,20210119,Tehachapi,['']
+Tracy_20210125_06_00_FULL,20210125,Tracy,['']
+Vacaville_20201124_01_45_FULL_PrisonConditions,20201124,Vacaville,"['Prison Conditions', ' Featured']"
+Vacaville_20210111_156_FULL_Infection,20210111,Vacaville,"['Featured', ' Infection', ' Prison Condition']"
+Vacaville_20210429_7_14_FULL,20210429,Vacaville,['']
+Vacaville_20211227_51626_FULL,20211227,Vacaville,['']
+Fresno_Main_20210920_28918_FULL,20210920,Fresno_Main,['']
+SanJoaquin_Main_20210831_12851_FULL,20210831,SanJoaquin_Main,['']
+SanJoaquin_Main_20210831_15688_FULL,20210831,SanJoaquin_Main,['']
+SanJoaquin_Main_20210902_88473_P2_FULL,20210902,SanJoaquin_Main,['']
+SanJoaquin_Main_20210907_38166_P1_FULL,20210907,SanJoaquin_Main,['']
+SanJoaquin_Main_20210907_38166_P2_FULL,20210907,SanJoaquin_Main,['']
+SanJoaquin_Main_20210907_38166_P2_Infection,20210907,SanJoaquin_Main,['']
+SanJoaquin_Main_20210907_70339_FULL,20210907,SanJoaquin_Main,['']
+SanJoaquin_Main_20210910_54143_FULL,20210910,SanJoaquin_Main,['']
+Yuba_20210903_29710_FULL,20210903,Yuba,['']
+Yuba_20210811_503_FULL,20210811,Yuba,['']
+SanJoaquin_Main_20210914_84921_Full,20210914,SanJoaquin_Main,['']
+Merced_Latorraca_20210910_38691_FULL,20210910,Merced_Latorraca,['']
+Merced_Latorraca _20210917_24079_FULL,20210917,Merced_Latorraca ,['']
+Merced_Latorraca_20210910_81379_FULL,20210910,Merced_Latorraca,['']
+Fresno_Main_20210916_46088_FULL,20210916,Fresno_Main,"['Prison Conditions', ' Stress']"
+Fresno_Main_20210916_72217_FULL,20210916,Fresno_Main,['']
+CaliforniaCity_20210604_821_FULL_Programs_Infection,20210604,CaliforniaCity,"['Programs', ' Infection']"
+Merced_Main_20210920_55348_P1_P2_FULL,20210920,Merced_Main,['']
+FireCamps_20210816_715_P1_FULL,20210816,FireCamps,['']
+Kings_Main_20210827_87009_FULL,20210827,Kings_Main,['']
+Merced_Latorraca_20210917_17611_FULL,20210917,Merced_Latorraca,['']
+Fresno_Main_20210831_43692_FULL,20210831,Fresno_Main,['']
+CaliforniaCity_20210609_844_FULL,20210609,CaliforniaCity,['']
+CaliforniaCity_20210617_624_FULL,20210617,CaliforniaCity,['']
+Merced_Main_20210914_19036_FULL,20210914,Merced_Main,['']
+LosAngeles_MensCentral_20211006_22274_FULL,20211006,LosAngeles_MensCentral,['']
+LosAngeles_MensCentral_20211001_10081_FULL,20211001,LosAngeles_MensCentral,['']
+LosAngeles_MensCentral_20210929_73176_FULL,20210929,LosAngeles_MensCentral,['']
+LosAngeles_TwinTowers_20211006_47422_FULL,20211006,LosAngeles_TwinTowers,['']
+Ventura_Main_20211109_47163_FULL,20211109,Ventura_Main,['']
+Ventura_Todd_20211109_15925_FULL,20211109,Ventura_Todd,['']
+Ventura_Todd_20211109_61440_FULL,20211109,Ventura_Todd,['']
+Merced_Main_20211005_25218_FULL,20211005,Merced_Main,['']
+Ventura_Todd_20211109_94215_FULL,20211109,Ventura_Todd,['']
+Yuba_20211018_65593_FULL,20211018,Yuba,['']
+LosAngeles_MensCentral_20211115_99586_FULL,20211115,LosAngeles_MensCentral,['']
+LosAngeles_TwinTowers_20211004_32516_FULL,20211004,LosAngeles_TwinTowers,['']
+Yuba_20211129_59826_FULL,20211129,Yuba,['']
+Kern_GSAnnex_20210812_712_FULL,20210812,Kern_GSAnnex,['']
+Kern_GSAnnex_20210812_756_FULL,20210812,Kern_GSAnnex,['']
+Kern_GSAnnex_20210812_737_FULL_Spanish,20210812,Kern_GSAnnex,['']
+Kern_GSAnnex_20210812_737_FULL_English,20210812,Kern_GSAnnex,['']
+SanBernadino_WestValley_20211011_86411_FULL,20211011,SanBernadino_WestValley,['']
+SanBernardino_Central_20211004_84859_P1_FULL,20211004,SanBernardino_Central,['']
+SantaClara_Elmwood_20220209_58109_FULL,20220209,SantaClara_Elmwood,['']
+SantaClara_Elmwood_20211221_34216_FULL,20211221,SantaClara_Elmwood,['']
+PelicanBay_20210907_20161_FULL,20210907,PelicanBay,['']
+PelicanBay_20210920_34490_FULL,20210920,PelicanBay,['']
+PelicanBay_20211005_33525_FULL,20211005,PelicanBay,['']
+Ventura_Main_20211117_90427_FULL,20211117,Ventura_Main,['']
+Ventura_Main_20211215_87702_FULL_PrisonConditions_Infection,20211215,Ventura_Main,"['Prison Conditions', ' Infection', ' Featured']"
+Ventura_Main_20211223_95494_FULL,20211223,Ventura_Main,['']
+Ventura_Main_20220103_11818_FULL,20220103,Ventura_Main,['']
+Ventura_Todd_20211112_20428_FULL_PrisonConditions_Stress,20211112,Ventura_Todd,"['Prison Conditions', ' Stress']"
+Ventura_Todd_20211130_75217_FULL_Stress,20211130,Ventura_Todd,['Stress']
+Riverside_Presley_20210603_851_FULL_Infection_PrisonConditions_Family,20210603,Riverside_Presley,"['Infection', ' PrisonConditions', ' Family']"
+Merced_Main_20210916_16065_FULL,20210916,Merced_Main,['']
+Merced_Main_20210916_65115_FULL,20210916,Merced_Main,['']
+Fresno_Main_20211006 _19112_FULL,20211006,Fresno_Main,['']
+Fresno_Main_20210831_76770_FULL,20210831,Fresno_Main,['']
+CaliforniaCity_20210617_714_FULL,20210617,CaliforniaCity,['']
+Amador_Main_20210914_87709_FULL,20210914,Amador_Main,['']
+Merced_Main_20220105_70350_FULL_PrisonConditions,20220105,Merced_Main,['Prison Conditions']
+Tulare_BobWiley_20210908_44718_FULL,20210908,Tulare_BobWiley,['']
+Tulare_BobWiley_20211112_16604_FULL,20211112,Tulare_BobWiley,['']
+Tulare_BobWiley_20220302_13180_FULL,20220302,Tulare_BobWiley,['']
+Tulare_Main_20211227_94959_FULL,20211227,Tulare_Main,['']
+Tulare_SouthCounty_20211105_16555_FULL,20211105,Tulare_SouthCounty,['']
+SantaClara_Elmwood_20211201_47028_FULL,20211201,SantaClara_Elmwood,['']
+SantaClara_Elmwood_20211201_62377_FULL,20211201,SantaClara_Elmwood,['']
+SantaClara_Elmwood_20211206_71158_FULL,20211206,SantaClara_Elmwood,['']
+SantaClara_Elmwood_20211206_85268_FULL,20211206,SantaClara_Elmwood,['']
+SantaClara_Main_20211223_63230_FULL,20211223,SantaClara_Main,['']
+Amador_Main_20210831_95905_FULL,20210831,Amador_Main,['']
+Norco_20210827_36000_FULL,20210827,Norco,['']
+Norco_20210906_39314_FULL_Family_Infection,20210906,Norco,"['Family', ' Infection']"
+Stockton_20210922_26483_FULL,20210922,Stockton,['']
+Alameda_SantaRita_20211208_13170_FULL,20211208,Alameda_SantaRita,['']
+Alameda_SantaRita_20211208_79927_FULL,20211208,Alameda_SantaRita,['']
+Avenal_20210916_71906_P1_FULL,20210916,Avenal,['']
+Avenal_20210916_71906_P2_FULL,20210916,Avenal,['']
+Avenal_20210916_71906_P3_FULL,20210916,Avenal,['']
+Chowchilla_20210913_92441_FULL,20210913,Chowchilla,['']
+Solano_20210831_10115_FULL,20210831,Solano,['']
+Vacaville_20210817_646_FULL,20210817,Vacaville,['']
+Alameda_SantaRita_20211117_77131_FULL,20211117,Alameda_SantaRita,['']
+Alameda_SantaRita_20211104_17377_FULL,20211104,Alameda_SantaRita,['']
+Butte_Main_20220105_59841_FULL,20220105,Butte_Main,['']
+Butte_Main_20220105_13697_FULL,20220105,Butte_Main,['']
+Alameda_SantaRita_20211112_94071_FULL,20211112,Alameda_SantaRita,['']
+Alameda_SantaRita_20210505_708_FULL,20210505,Alameda_SantaRita,['']
+Alameda_SantaRita_20220113_78977_FULL,20220113,Alameda_SantaRita,['']
+Alameda_SantaRita_20220225_68847_FULL,20220225,Alameda_SantaRita,['']
+Chino_20220204_15904_FULL,20220204,Chino,['']
+Chino_20220204_68596_FULL,20220204,Chino,['']
+Chino_20220204_45125_FULL,20220204,Chino,['']
+Chino_20220204_94412_FULL,20220204,Chino,['']
+Chino_20220204_43800_FULL,20220204,Chino,['']
+Vacaville_20210707_15983_Full,20210707,Vacaville,['']
+Vacaville_20220114_49400_FULL,20220114,Vacaville,['']
+Alameda_SantaRita_20220225_43871_FULL,20220225,Alameda_SantaRita,['']
+NewFolsom_20210609_618_FULL,20210609,NewFolsom,['']
+NewFolsom_20210610_605_FULL,20210610,NewFolsom,['']
+NewFolsom_20220112_29146_FULL,20220112,NewFolsom,['']
+MuleCreek_20210114_0504_FULL,20210114,MuleCreek,['']
+MuleCreek_20210114_0518_FULL,20210114,MuleCreek,['']
+CaliforniaCity_20210426_816_Full_ProgramsFamily,20210426,CaliforniaCity,"['Programs', ' Family']"
+Calipatria_ 20210208_351_FULL,20210208,Calipatria_,['']
+Calipatria_20210124_314_Full,20210124,Calipatria,['']
+Calipatria_20210125_313_Full,20210125,Calipatria,['']
+Calipatria_20210127_335_Full,20210127,Calipatria,['']
+Calipatria_20210129_309_FULL_Infection_Stress,20210129,Calipatria,['Family']
+Calipatria_20210129_369_FULL_PrisonConditions_Stress,20210129,Calipatria,"['Prison Conditions', ' Stress']"
+Calipatria_20210201_374_FULL_Infection,20210201,Calipatria,"['Infection', ' Prison Conditions']"
+Calipatria_20210201_376_FULL_Family_Programs,20210201,Calipatria,"['Family', ' Programs']"
+Calipatria_20210203_383_FULL,20210203,Calipatria,['']
+Calipatria_20210203_384_FULL_Stress,20210203,Calipatria,['Stress']
+Calipatria_20210204_378_FULL_Infections_PrisonConditions_StressandCoping,20210204,Calipatria,"['Infection', ' Prison Conditions', ' Stress']"
+Calipatria_20210205_387_FULL,20210205,Calipatria,"['Infection', ' Stress']"
+Calipatria_20210205_389a_FULL,20210205,Calipatria,"['Prison Conditions', ' Family']"
+Calipatria_20210205_389b_FULL,20210205,Calipatria,"['Prison Conditions', ' Family', ' Stress']"
+Calipatria_20210205_390_FULL_PrisonConditions,20210205,Calipatria,['Prison Conditions']
+Calipatria_20210208_350_Full_Infection_Family,20210208,Calipatria,"['Infection', ' Family']"
+Calipatria_20210210_360_FULL,20210210,Calipatria,['']
+Calipatria_20210211_445_FULL_Infections_Programs_Prison Conditions,20210211,Calipatria,"['Infection', ' Program', ' Prison Conditions']"
+Calipatria_20210222_458_FULL_Infection_PrisonConditions,20210222,Calipatria,"['Infection', ' Prison Conditions']"
+Calipatria_20210312_658_Full,20210312,Calipatria,['']
+Calipatria_20210316_553 _FULL_Infection_Programs_Prison Conditions,20210316,Calipatria,"['Infection', ' Programs', ' Prison Conditions']"
+Calipatria_20210323_644_Full,20210323,Calipatria,['']
+Calipatria_20210329_598_Full,20210329,Calipatria,['']
+Calipatria_20210401_605_Full,20210401,Calipatria,['']
+Calipatria_20210406_964_FULL,20210406,Calipatria,['']
+Centinela_20201123_070_FULL,20201123,Centinela,"['Family', ' Stress', ' Prison Conditions']"
+Centinela_20201204_82_PrisonConditions,20201204,Centinela,['Prison Conditions']
+Centinela_20210223_452_Full,20210223,Centinela,['']
+Centinela_20210331_615_FULL,20210331,Centinela,['']
+Chino_20200430_72_FULL,20200430,Chino,['']
+Chino_20200828_136_FULL,20200828,Chino,['']
+Chino_20201130_074_FULL,20201130,Chino,"['Prison Conditions', ' Infection', ' Stress']"
+Chino_20201130_97_Infection,20201130,Chino,"['Infection', ' Prison Conditions', ' Stress']"
+Chino_20201201_103_FULL,20201201,Chino,['']
+Chino_20201201_104_FULL,20201201,Chino,['']
+Chino_20201205_92_Full,20201205,Chino,['']
+Chino_20201209_139_FullPrograms,20201209,Chino,['Programs']
+Chino_20201213_137_Full_Infection_Stress,20201213,Chino,"['Infection', ' Stress']"
+Chino_20201214_138_Full_Programs_PrisonConditions,20201214,Chino,"['Program', ' Prison Conditions']"
+Chino_20201214_140_Full,20201214,Chino,['']
+Chino_20201218_174_FULL,20201218,Chino,"['Prison Conditions', ' Stress']"
+Chino_20201218_206_Full,20201218,Chino,['Prison Conditions']
+Chino_20201223_207_FULL,20201223,Chino,['']
+Chino_20201223_208_Full,20201223,Chino,"['Family', ' Stress', ' Prison Conditions']"
+Chino_20201223_209_FULL,20201223,Chino,['']
+Chino_20201228_178_FULL_PrisonConditions_Infection,20201228,Chino,"['Prison Conditions', ' Infection']"
+Chino_20201231_186_FULL,20201231,Chino,['']
+Chino_20201231_201_Full,20201231,Chino,['']
+Chino_20210106_249_Full,20210106,Chino,['Family']
+Chino_20210312_659_FULL_PrisonConditions_Stress,20210312,Chino,"['Prison Conditions', ' Stress', ' Featured']"
+Chowchilla_ 20210201_373_FULL,20210201,Chowchilla_,['Stress']
+Chowchilla_20201123_069_FULL,20201123,Chowchilla,"['Prison Conditions', ' Programs', ' Family']"
+Chowchilla_20201124_062_FULL,20201124,Chowchilla,['']
+Chowchilla_20201204_84_FULL,20201204,Chowchilla,"['Stress', ' Prison Conditions']"
+Chowchilla_20201207_128_FULL,20201207,Chowchilla,"['Stress', ' Prison Conditions', ' Family']"
+Chowchilla_20201208_117_FULL,20201208,Chowchilla,['Infection']
+Chowchilla_20201209_118_FULL,20201209,Chowchilla,"['Infection', ' Prison Conditions', ' Stress']"
+Chowchilla_20201209_121_FULL_Family_PrisonConditions,20201209,Chowchilla,"['Family', ' Prison Conditions']"
+Chowchilla_20201217_204_Full,20201217,Chowchilla,['']
+Chowchilla_20201218_173_FULL_PrisonConditions_Stress_Family,20201218,Chowchilla,"['Prison Conditions', ' Stress', ' Family']"
+Chowchilla_20201221_147_FULL,20201221,Chowchilla,['']
+Chowchilla_20201221_193_Full_PrisonCondtions_Stress,20201221,Chowchilla,"['Prison Conditions', ' Stress']"
+Chowchilla_20201222_189_FULL,20201222,Chowchilla,['Stress']
+Chowchilla_20201223_218_FULL,20201223,Chowchilla,['']
+Chowchilla_20201224_212_Full_PrisonConditions_Infection_Stress,20201224,Chowchilla,"['Prison Conditions', ' Infection', ' Stress']"
+Chowchilla_20201228_148_FULL,20201228,Chowchilla,['']
+Chowchilla_20201228_177_FULL,20201228,Chowchilla,['']
+Chowchilla_20210104_248_Full,20210104,Chowchilla,['Prison Conditions']
+Chowchilla_20210111_262_Full_Infection,20210111,Chowchilla,['Infection']
+Chowchilla_20210114_270_Full,20210114,Chowchilla,['']
+Chowchilla_20210121_324_FULL_PrisonConditions,20210121,Chowchilla,['Prison Conditions']
+Chowchilla_20210405_960_Full_Stress,20210405,Chowchilla,['Stress']
+Chuckawalla_20210215_417_Full_PrisonConditions_Infection,20210215,Chuckawalla,"['Prison Conditions', ' Infection']"
+CIW_20201120_71_FULL,20201120,CIW,"['Stress', ' Family', ' Prison Conditions', ' Programs']"
+CIW_20201201_79_FULL,20201201,CIW,['']
+CIW_20201202_88_Familyandstress,20201202,CIW,"['Family', ' Stress']"
+CIW_20201203_076_PrisonConditions_Stress,20201203,CIW,['Prison Conditions; Stress']
+CIW_20201203_80_FULL_PrisonConditions_Infection,20201203,CIW,"['Prison Conditions', ' Infection', ' Stress', ' Featured']"
+CIW_20201203_81_FULL,20201203,CIW,"['Infection', ' Family', ' Stress']"
+CIW_20201204_85_FULL_PrisonConditions_Stress,20201204,CIW,"['Prison Conditions', ' Stress']"
+CIW_20201209_114_FULL,20201209,CIW,"['Stress', ' Family', ' Prison Conditions', ' Programs']"
+CIW_20201215_131_FULL,20201215,CIW,['']
+CIW_20201217_194_FULL_Infection,20201217,CIW,"['Infection', ' Prison Conditions']"
+CIW_20201218_153_FULL,20201218,CIW,['']
+CIW_20201224_152_FULL,20201224,CIW,['']
+CIW_20201230_160_FULL,20201230,CIW,['Prison Conditions']
+CIW_20210319_577_FULL_Stress,20210319,CIW,['Stress']
+CMC_20210120_329_Full_PrisonConditions_Infections_Stress,20210120,CMC,"['Prison Conditions', ' Infection', ' Stress']"
+CMC_20210121_316_FULL,20210121,CMC,['Prison Conditions']
+CMC_20210125_315_Full_PrisonConditions_Stress,20210125,CMC,"['Prison Conditions', ' Stress']"
+CMC_20210125_331_Full_PrisonConditions_Infection_Family,20210125,CMC,"['Featured', ' Prison Conditions', ' Infection', ' Family']"
+CMC_20210125_332_Full_Infection,20210125,CMC,['Infection']
+CMC_20210125_333_Full_Stress_Feature,20210125,CMC,"['Featured', ' Stress']"
+CMC_20210126_336_Full,20210126,CMC,['']
+CMC_20210129_307_FULL,20210129,CMC,"['Stress', ' Prison Conditions']"
+CMC_20210129_308_Full_PrisonConditions,20210129,CMC,['Prison Conditions']
+CMC_20210208_346_FULL_Stress_Infection_PrisonConditions,20210208,CMC,"['Stress', ' Infection', ' Prison Conditions']"
+CMC_20210209_363_Full_w_themes,20210209,CMC,"['Family', ' Stress']"
+CMC_20210210_355_FULL,20210210,CMC,"['Prison Conditions', ' Program', ' Family']"
+CMC_20210210_357_FULL,20210210,CMC,['']
+CMC_20210210_358_FULL_Stress,20210210,CMC,['Stress']
+CMC_20210210_359_Full,20210210,CMC,['']
+CMC_20210211_446_FULL,20210211,CMC,['']
+CMC_20210211_447_FULL_Family_Infection,20210211,CMC,"['Family', ' Infection']"
+CMC_20210212_438_FULL_InfectionPrisonConditionsStress,20210212,CMC,"['Infection', ' Prison Conditions', ' Stress']"
+CMC_20210212_439_FULL,20210212,CMC,['']
+CMC_20210216_425_FULL_Stress,20210216,CMC,['Stress']
+CMC_20210216_426_FULL_Infection_PrisonConditions,20210216,CMC,"['Infection', ' Prison Conditions']"
+CMC_20210217_401_Full_FamilyInfectionStress,20210217,CMC,"['Family', ' Infection', ' Stress']"
+CMC_20210221_488_FULL_Family_Infection_PrisonConditions,20210221,CMC,"['Family', ' Infection', ' Prison Conditions']"
+CMC_20210222_454_FULL_Infection,20210222,CMC,['Infection']
+CMC_20210222_490_Full,20210222,CMC,['']
+CMC_20210223_499_FULL,20210223,CMC,['']
+CMC_20210224_465_FULL,20210224,CMC,['']
+CMC_20210225_472_FULL_Programs_Stress,20210225,CMC,"['Programs', ' Stress']"
+CMC_20210225_473_FULL,20210225,CMC,['']
+CMC_20210308_656_Full_InfectionPrisonConditions,20210308,CMC,"['Infection', ' Prison Conditions', ' Featured']"
+CMC_20210316_550_FULL,20210316,CMC,['']
+CMC_20210412_956_Full_Infection,20210412,CMC,['Infection']
+CMC_20210420_711_FULL_Infection_PrisonConditions,20210420,CMC,"['Infection', ' Prison Conditions']"
+Corcoran_20201224_213_FULL,20201224,Corcoran,['']
+Corcoran_20201230_162_Full_Program_Family,20201230,Corcoran,"['Programs', ' Family']"
+CSATF_20201123_66_FULL,20201123,CSATF,"['Infection', ' Prison Conditions', ' Stress']"
+CSATF_20201214_141_FULL,20201214,CSATF,['']
+CSATF_20201216_256_FULL,20201216,CSATF,['']
+CSATF_20210107_228_Full_Infection,20210107,CSATF,['Infection']
+CSATF_20210108_235_FULL,20210108,CSATF,['']
+CSATF_20210108_236_Full,20210108,CSATF,['']
+CSATF_20210108_240_Full,20210108,CSATF,['']
+CSATF_20210108_242_FULL_Programs,20210108,CSATF,['Programs']
+CSATF_20210111_259_Full_Infection_PrisonConditions,20210111,CSATF,"['Infection', ' Prison Conditions']"
+CSATF_20210111_261_FULL_Stress_Programs,20210111,CSATF,"['Stress', ' Programs']"
+CSATF_20210111_279_FULL,20210111,CSATF,['']
+CSATF_20210111_281_FULL_PrisonConditions_Infection,20210111,CSATF,"['Prison Conditions', ' Infection']"
+CSATF_20210111_283_Full_PrisonConditions_Stress,20210111,CSATF,"['Prison Conditions', ' Stress']"
+CSATF_20210112_278_Full_Stress,20210112,CSATF,['Stress']
+CSATF_20210114_265_FULL,20210114,CSATF,['']
+CSATF_20210121_260_FULL_Stress_Infection,20210121,CSATF,"['Stress', ' Infection']"
+CSATF_20210122_328_Full,20210122,CSATF,['']
+CSATF_20210324_639_Full_Stress,20210324,CSATF,['Stress']
+CSATF_20210401_606_Full_PrisonConditions,20210401,CSATF,['Prison Conditions']
+CSATF_20210408_977_Full_PrisonConditionsInfection,20210408,CSATF,"['Prison Conditions', ' Infection']"
+CSATF_20201231_167_FULL,20201231,CSATF,['Stress']
+CSAFT_20210128_310_Full,20210128,CSAFT,['']
+CSTAF_20210201_372_FULL,20210201,CSTAF,['']
+Delano_20210216_428_FULL,20210216,Delano,['']
+Delano_20210216_432_FULL,20210216,Delano,['']
+Delano_20210217_400_Full_Prison Conditions,20210217,Delano,['Prison Conditions']
+Delano_20210217_409_FULL_Infection,20210217,Delano,['Infection']
+Delano_20210420_725_FULL_Family_PrisonConditions,20210420,Delano,"['Family', ' Prison Conditions']"
+Delano_20210420_726_Full,20210420,Delano,['']
+Donovan_20210107_227_Full,20210107,Donovan,['']
+Donovan_20210119_319_FULL_Infection_PrisonConditions,20210119,Donovan,"['Infection', ' Prison Conditions']"
+Donovan_20210319_645_FULL,20210319,Donovan,['']
+Donovan_20210330_591_FULL_Stress,20210330,Donovan,['Stress']
+Donovan_20210419_682_Full_Family_Infection_Stress,20210419,Donovan,"['Family', ' Infection', ' Stress']"
+Donovan_20210419_699_FULL_PrisonConditionsFamilyStress,20210419,Donovan,"['Prison Conditions', ' Family', ' Stress']"
+Donovan_20210422_772_FULL_Infection_PrisonConditions,20210422,Donovan,"['Infection', ' Prison Conditions']"
+Donovan_20210422_802_Full_InfectionPrisonConditions,20210422,Donovan,"['Infection', ' Prison Conditions']"
+Donovan_20210422_803_FULL,20210422,Donovan,['']
+Donovan_20210422_804_FULL,20210422,Donovan,['']
+Donovan_20210426_817_FULL_PrisonConditions_Infection_Stress,20210426,Donovan,"['Prison Conditions', ' Infection', ' Stress', ' Featured']"
+Donovan_20210426_818_FULL,20210426,Donovan,['']
+Donovan_20210427_765_Full,20210427,Donovan,['']
+Donovan_20210427_767_FULL_Family_Infection_PrisonConditions,20210427,Donovan,"['Family', ' Infection', ' Prison Conditions']"
+Donovan_20210427_785_FULL_Family_Infection,20210427,Donovan,"['Family', ' Infection']"
+Donovan_20210427_899_FULL_Infection,20210427,Donovan,['Infection']
+Donovan_20210428_761_FULL,20210428,Donovan,['']
+Donovan_20210428_762_FULL_PrisonConditionsStress,20210428,Donovan,"['Prison Conditions', ' Stress']"
+Donovan_20210428_763_FULL_Infection_PrisonConditions,20210428,Donovan,"['Infection', ' Prison Conditions']"
+Donovan_20210428_764_FULL,20210428,Donovan,['']
+Donovan_20210428_853_FULL_FamilyInfection,20210428,Donovan,"['Family', ' Infection']"
+Donovan_20210430_1011_Full,20210430,Donovan,['']
+Folsom_20210104_294_FULL,20210104,Folsom,"['Prison Conditions', ' Stress', ' Programs']"
+Folsom_20210412_958_Full,20210412,Folsom,['']
+Folsom_20210427_888_FULL_PrisonCondtions,20210427,Folsom,['Prison Conditions']
+Folsom_20210428_1032_Full,20210428,Folsom,['']
+High Desert_20210219_410_FULL_Stress_Infection,20210219,High Desert,"['Stress', ' Infection']"
+High Desert_20210221_501_FULL_PrisonConditions_Stress,20210221,High Desert,"['Prison Conditions', ' Stress']"
+High Desert_20210222_503_FULL,20210222,High Desert,['']
+High Desert_20210301_534_FULL_InfectionFamilyPrisonConditions_Stress,20210301,High Desert,"['Infection', ' Family', ' Prison Conditions']"
+High Desert_20210303_529_Full,20210303,High Desert,['']
+High Desert_20210310_582_FULL_Stress_PrisonConditions,20210310,High Desert,"['Stress', ' Prison Conditions']"
+High Desert_20210315_549_FULL_PrisonConditions,20210315,High Desert,['Prison Conditions']
+High_Desert_20210128_304_FULL,20210128,High_Desert,"['Family', ' Prison Conditions', ' Infection']"
+High_Desert_20210201_368_FULL,20210201,High_Desert,['']
+HighDesert_20210128_302_Full,20210128,HighDesert,['']
+HighDesert_20210128_303_Full,20210128,HighDesert,['']
+HighDesert_20210128_305_FULL,20210128,HighDesert,"['Family', ' Stress']"
+HighDesert_20210129_300_Full,20210129,HighDesert,"['Prison Conditions', ' Stress']"
+HighDesert_20210129_301_Full_PrisonConditions_Programs_Family,20210129,HighDesert,"['Prison Conditions', ' Programs', ' Family', ' Stress', ' Infection']"
+HighDesert_20210129_377_FULL,20210129,HighDesert,['']
+HighDesert_20210201_357_FULL_Family_Infection,20210201,HighDesert,"['Family', ' Infection']"
+HighDesert_20210208_342_FULL_PrisonConditionsInfection,20210208,HighDesert,"['Prison Conditions', ' Infection']"
+HighDesert_20210211_441_Full_PrisonCondtions_Infection_Stress,20210211,HighDesert,"['Prison Condtions', ' Infection', ' Stress']"
+HighDesert_20210221_505_FULL_Infection_Family,20210221,HighDesert,"['Infection', ' Family']"
+HighDesert_20210222_502_FULL_Stress_PrisonConditions,20210222,HighDesert,"['Stress', ' Prison Conditions']"
+HighDesert_20210223_459_FULL_Stress_Infection,20210223,HighDesert,"['Stress', ' Infection']"
+HighDesert_20210223_460_FULL_PrisonConditions_Programs,20210223,HighDesert,"['Prison Conditions', ' Program']"
+HighDesert_20210223_467_FULL,20210223,HighDesert,['']
+HighDesert_20210420_713_Full_Family_Infection_Stress,20210420,HighDesert,"['Family', ' Infection', ' Stress']"
+Ironwood_20201130_94_FULL,20201130,Ironwood,['']
+Ironwood_20201229_157_FULL,20201229,Ironwood,['']
+Ironwood_20201230_156_FULL,20201230,Ironwood,['']
+Ironwood_20210113_269_Full_Infection,20210113,Ironwood,"['Infection', ' Featured']"
+Ironwood_20210114_267_Full,20210114,Ironwood,"['Prison Conditions', ' Family', ' Stress']"
+Ironwood_20210122_327_FULL_Programs_Infection,20210122,Ironwood,"['Programs', ' Infection']"
+Ironwood_20210125_311_Full,20210125,Ironwood,['']
+Ironwood_20210205_388,20210205,Ironwood,['Prison Conditions']
+Jamestown_20210308_672_FULL,20210308,Jamestown,['']
+Jamestown_20210311_667_FULL_Stress,20210311,Jamestown,['Stress']
+Jamestown_20210316_561_Full,20210316,Jamestown,['']
+Jamestown_20210317_572_FULL_Infection_PrisonConditions,20210317,Jamestown,"['Infection', ' Prison Conditions']"
+Jamestown_20210317_573_FULL_PrisonConditions_Infection_Stress,20210317,Jamestown,"['Prison Conditions', ' Infection', ' Stress']"
+Jamestown_20210318_574_FULL_Family_Infection_Stress,20210318,Jamestown,"['Family', ' Infection', ' Stress']"
+jamestown_20210323_643_Full_Stress,20210323,jamestown,['Stress']
+jamestown_20210325_638_Full,20210325,jamestown,['']
+Jamestown_20210419_695_Full,20210419,Jamestown,['']
+KernValley_20210324_636_FULL_Programs_Infection,20210324,KernValley,"['Programs', ' Infection']"
+KernValley_20210427_739_FULL,20210427,KernValley,['']
+KernValley_20210427_742_FULL,20210427,KernValley,['']
+KernValley_20210427_745_Full_Infection_PrisonConditions,20210427,KernValley,"['Infection', ' Prison Conditions']"
+KernValley_20210427_747_FULL,20210427,KernValley,['']
+KernValley_20210427_753_FULL,20210427,KernValley,['']
+KernValley_20210427_754_FULL_StressInfection,20210427,KernValley,"['Stress', ' Infection']"
+KernValley_20210427_830_FULL_InfectionStress,20210427,KernValley,"['Infection', ' Stress']"
+KernValley_20210428_846_Full,20210428,KernValley,['']
+KernValley_20210428_849_Full,20210428,KernValley,['']
+KernValley_20210430_1000_FULL_Programs_Infection,20210430,KernValley,"['Programs', ' Infection']"
+KernValley_20210430_1001_FULL_Stress_Infection_PrisonConditions,20210430,KernValley,"['Stress', ' Infection', ' Prison Conditions']"
+KernValley_20210430_999_Full,20210430,KernValley,['']
+KernValley_20210513_1345_FULL,20210513,KernValley,['']
+KernValley_20210513_1346_FULL_Infection,20210513,KernValley,['Infection']
+KernValley_20210513_1350_FULL,20210513,KernValley,['']
+Lancaster_20201029_002_FULL,20201029,Lancaster,['']
+Lancaster_20201109_030_FULL,20201109,Lancaster,['']
+Lancaster_20201202_091_FULL,20201202,Lancaster,['']
+Lancaster_20201209_110_FULL,20201209,Lancaster,"['Infection', ' Stress', ' Prison Conditions']"
+Lancaster_20210126_295_Full,20210126,Lancaster,['']
+Lancaster_20210316_583_FULL_Stress_PrisonConditions,20210316,Lancaster,"['Stress', ' Prison Conditions']"
+MuleCreek_20201109_27_Full_PrisonConditions_Stress_Family,20201109,MuleCreek,"['Prison Conditions', ' Stress', ' Family']"
+MuleCreek_20201110_323_FULL_PrisonConditions,20201110,MuleCreek,['Prison Conditions']
+MuleCreek_20201210_101_FULL,20201210,MuleCreek,['']
+MuleCreek_20210105_246_FULL,20210105,MuleCreek,['']
+MuleCreek_20210113_257_Full,20210113,MuleCreek,['']
+MuleCreek_20210419_696_FULL_Family_PrisonConditions_Infection,20210419,MuleCreek,"['Family', ' Prison Conditions', ' Infection']"
+MuleCreek_20210421_704_Full,20210421,MuleCreek,['']
+MuleCreek_20210423_797_FULL,20210423,MuleCreek,['']
+MuleCreek_20210426_868_FULL_PrisonConditions,20210426,MuleCreek,['Prison Conditions']
+MuleCreek_20210426_870_FULL_FamilyStressInfection,20210426,MuleCreek,"['Family', ' Stress', ' Infection']"
+MuleCreek_20210428_844_FULL_InfectionPrisonConditions,20210428,MuleCreek,"['Infection', ' Prison Conditions', ' Featured']"
+MuleCreek_20210429_987_FULL,20210429,MuleCreek,['']
+MuleCreek_20210517_1261_FULL_PrisonConditions_Infection_Family,20210517,MuleCreek,"['Prison Conditions', ' Infection', ' Family']"
+MuleCreek_20210517_1262_FULL_PrisonConditions_Infection,20210517,MuleCreek,"['Prison Conditions', ' Infection']"
+MuleCreek_20210517_1267_FULL,20210517,MuleCreek,['']
+MuleCreek_20210526_5_04_FULL,20210526,MuleCreek,['']
+NewFolsom_20210418_698_FULL_ProgramsPrisonConditions,20210418,NewFolsom,"['Programs', ' Prison Conditions']"
+NewFolsom_20210420_714_FULL_StressPrograms,20210420,NewFolsom,"['Stress', ' Programs']"
+NewFolsom_20210421_707_FULL_ProgramsFamilyStress,20210421,NewFolsom,"['Programs', ' Family', ' Stress']"
+NewFolsom_20210421_708_FULL_ProgramsFamilyStress,20210421,NewFolsom,"['Programs', ' Family', ' Stress', ' Featured']"
+NewFolsom_20210421_710_FULL_ProgramsInfectionPrisonconditions,20210421,NewFolsom,"['Programs', ' Infection', ' Prison Conditions']"
+NewFolsom_20210421_792_FULL_PrisonconditionsCopingFamily,20210421,NewFolsom,"['Prison Conditions', ' Stress', ' Family']"
+NewFolsom_20210422_769_FULL_PrisonConditionsInfection,20210422,NewFolsom,"['Prison Conditions', ' Infection']"
+NewFolsom_20210423_771_FULL,20210423,NewFolsom,['']
+NewFolsom_20210426_814_FULL_PrisonConditions,20210426,NewFolsom,['Prison Conditions']
+NewFolsom_20210426_820_FULL,20210426,NewFolsom,['']
+NewFolsom_20210426_821_FULL_FamilyInfection,20210426,NewFolsom,"['Family', ' Infection']"
+NewFolsom_20210426_824_FULL_Infection_PrisonConditions,20210426,NewFolsom,"['Infection', ' Prison Conditions']"
+NewFolsom_20210429_986_FULL_PrisonConditions,20210429,NewFolsom,['Prison Conditions']
+NewFolsom_20210430_1016_FULL_Infection,20210430,NewFolsom,['Infection']
+NewFolsom_20210430_1022_Full_Infection_Programs,20210430,NewFolsom,"['Infection', ' Programs', ' Featured']"
+Norco_20201102_10_FULL,20201102,Norco,"['Infection', ' Family']"
+Norco_20210123_449_Full_Infection_Family,20210123,Norco,"['Infection', ' Family']"
+Norco_20210125_334_Full,20210125,Norco,['']
+Norco_20210203_386_FULL,20210203,Norco,['']
+Norco_20210208_349_FULL,20210208,Norco,"['Infection', ' Stress', ' Prison Conditions']"
+Norco_20210219_414_Full,20210219,Norco,['']
+Norco_20210401_610_FULL_Infection_PrisonConditions,20210401,Norco,"['Infection', ' Prison Conditions']"
+NorthKern_20210209_337_FULL,20210209,NorthKern,['']
+Orange_Central_20210415_939_FULL,20210415,Orange_Central,['']
+Orange_Central_20210416_927_FULL,20210416,Orange_Central,['']
+Orange_Central_20210416_928_FULL_PrisonConditionsInfection,20210416,Orange_Central,"['Prison Conditions', ' Infection']"
+Orange_Central_20210419_689_FULL,20210419,Orange_Central,['']
+Orange_Central_20210419_693_FULL_Stress,20210419,Orange_Central,['Stress']
+Orange_Central_20210421_679_Full,20210421,Orange_Central,['']
+Orange_Central_20210421_728_Full,20210421,Orange_Central,['']
+Orange_Central_20210428_842_FULL,20210428,Orange_Central,['']
+Orange_Central_20210517_1275_FULL_Stress,20210517,Orange_Central,['Stress']
+Orange_TheoLacy_20210416_926_FULL_PrisonConditionsPrograms,20210416,Orange_TheoLacy,"['Prison Conditions', ' Programs']"
+Orange_TheoLacy_20210417_687_FULL_PrisonConditions_Family,20210417,Orange_TheoLacy,"['Prison Conditions', ' Family']"
+Orange_TheoLacy_20210417_930_FULL,20210417,Orange_TheoLacy,['']
+Orange_TheoLacy_20210417_932_FULL,20210417,Orange_TheoLacy,['']
+Orange_TheoLacy_20210419_680_FULL,20210419,Orange_TheoLacy,['']
+Orange_TheoLacy_20210419_694_FULL,20210419,Orange_TheoLacy,['']
+Orange_TheoLacy_20210420_722_Full,20210420,Orange_TheoLacy,['']
+Orange_TheoLacy_20210420_723_FULL_PrisonConditions_Stress,20210420,Orange_TheoLacy,['Prison Conditions']
+Orange_TheoLacy_20210420_724_FULL,20210420,Orange_TheoLacy,['']
+Orange_TheoLacy_20210421_701_Full_FamilyInfectionStress,20210421,Orange_TheoLacy,"['Family', ' Infection', ' Stress']"
+Orange_TheoLacy_20210421_730_FULL_PrisonConditionsStressInfection,20210421,Orange_TheoLacy,"['Prison Conditions', ' Stress', ' Infection']"
+Orange_TheoLacy_20210421_919_FULL_PrisonConditionsInfection,20210421,Orange_TheoLacy,"['Prison Conditions', ' Infection']"
+Orange_TheoLacy_20210423_777_FULL_StressPrisonConditions,20210423,Orange_TheoLacy,"['Stress', ' Prison Conditions']"
+Orange_TheoLacy_20210424_805_FULL,20210424,Orange_TheoLacy,['']
+Orange_TheoLacy_20210427_892_FULL_PrisonConditionsInfection,20210427,Orange_TheoLacy,"['Prison Conditions', ' Infection']"
+Orange_TheoLacy_20210430_1003_Full,20210430,Orange_TheoLacy,['']
+Orange_TheoLacy_20210430_1010_Full_Stress_PrisonConditions,20210430,Orange_TheoLacy,"['Stress', ' Prison Conditions', ' Featured']"
+Orange_TheoLacy_20210501_1024_FULL_Stress,20210501,Orange_TheoLacy,['Stress']
+PelicanBay_20210420_917_FULL_PrisonConditions,20210420,PelicanBay,['Prison Conditions']
+PelicanBay_20210420_918_Full,20210420,PelicanBay,['']
+PelicanBay_20210423_866_FULL,20210423,PelicanBay,['']
+PelicanBay_20210426_903_FULL,20210426,PelicanBay,['']
+Pleasant Valley_20210217_402_FULL_Programs,20210217,Pleasant Valley,['Programs']
+Pleasant Valley_20210222_491_FULL,20210222,Pleasant Valley,['']
+Pleasant Valley_20210223_497_FULL_Famiy_Infection_Stress,20210223,Pleasant Valley,"['Family', ' Infection', ' Stress']"
+Pleasant Valley_20210302_523_FULL_Family_PrisonConditions_Programs,20210302,Pleasant Valley,"['Family', ' Prison Conditions', ' Porgrams']"
+Pleasant Valley_20210312_657_FULL,20210312,Pleasant Valley,"['Stress', ' Infection']"
+PleasantValley_20210201_370_FULL,20210201,PleasantValley,"['Prison Conditions', ' Family', ' Stress']"
+PleasantValley_20210209_341_Full,20210209,PleasantValley,"['Family', ' Programs']"
+PleasantValley_20210211_396_Full_PrisonConditions_Stress_Programs_Family,20210211,PleasantValley,"['Prison Conditions', ' Stress', ' Family', ' Programs']"
+PleasantValley_20210214_429_FULL,20210214,PleasantValley,['']
+PleasantValley_20210223_484_FULL,20210223,PleasantValley,['']
+PleasantValley_20210224_474_Full_Programs_Stress,20210224,PleasantValley,"['Programs', ' Stress']"
+PleasantValley_20210228_519_FULL_Stress,20210228,PleasantValley,['Stress']
+PleasantValley_20210311_668_FULL_PrisonConditions_Family,20210311,PleasantValley,"['Prison Conditions', ' Family']"
+PleasantValley_20210311_669_FULL_Programs_PrisonConditions,20210311,PleasantValley,"['Programs', ' Prison Conditions']"
+PleasantValley_20210317_564_FULL_Stress,20210317,PleasantValley,['Stress']
+PleasantValley_20210322_621_FULL,20210322,PleasantValley,['']
+PleasantValley_20210322_622_Full,20210322,PleasantValley,['']
+Pleasantvalley_20210322_633_FULL_Stress_PrisonConditions,20210322,Pleasantvalley,"['Stress', ' Prison Conditions']"
+PleasantValley_20210401_609_Full_PrisonConditions_Infections,20210401,PleasantValley,"['Prison Conditions', ' Infection']"
+SalinasValley_20210315_554_FULL,20210315,SalinasValley,['']
+SalinasValley_20210405_968_Full,20210405,SalinasValley,['']
+SalinasValley_20210419_727_FULL,20210419,SalinasValley,['']
+SalinasValley_20210421_729_FULL_StressPrograms,20210421,SalinasValley,"['Stress', ' Programs']"
+SalinasValley_20210421_912_Full,20210421,SalinasValley,['']
+SalinasValley_20210422_801_FULL,20210422,SalinasValley,['']
+SalinasValley_20210422_806_FULL_PrisonConditions,20210422,SalinasValley,['Prison Conditions']
+SalinasValley_20210423_808_FULL_PrisonConditions,20210423,SalinasValley,['Prison Conditions']
+SalinasValley_20210423_864_FULL_PrisonCondtions,20210423,SalinasValley,['Prison Conditions']
+SalinasValley_20210423_867_FULL,20210423,SalinasValley,['']
+SalinasValley_20210426_781_FULL,20210426,SalinasValley,['']
+SalinasValley_20210426_880_FULL,20210426,SalinasValley,['']
+SalinasValley_20210426_881_FULL_StressInfection,20210426,SalinasValley,"['Stres', ' Infection']"
+SalinasValley_20210426_889_FULL,20210426,SalinasValley,['']
+San Quentin_20201108_025_FULL,20201108,San Quentin,['']
+San Quentin_20201201_77B_FULL_PrisonConditions_Infection_Stress,20201201,San Quentin,"['Prison Conditions', ' Infection', ' Stress', ' Featured']"
+San Quentin_20201204_86_FULL,20201204,San Quentin,['']
+San Quentin_20210125_312_FULL,20210125,San Quentin,"['Stress', ' Programs', ' Prison Conditions']"
+San_Quentin_20201109_022_FULL,20201109,San_Quentin,['']
+SanQuentin_20201123_068_FULL,20201123,SanQuentin,"['Infections', ' Stress', ' Prison Conditions']"
+SanQuentin_20201221_187_FULL,20201221,SanQuentin,['']
+SanQuentin_20201221_188_FULL,20201221,SanQuentin,"['Programs', ' Prison Conditions']"
+SanQuentin_20201229_200_Full,20201229,SanQuentin,['']
+SanQuentin_20210104_252_FULL,20210104,SanQuentin,['Prison Conditions']
+SCC_20210114_271_Full,20210114,SCC,['']
+Solano_20210113_273_Full,20210113,Solano,['']
+Solano_20210224_464_Full_Stress_PrisonConditions_Infection,20210224,Solano,"['Stress', ' Prison Conditions', ' Infection']"
+Solano_20210225_470_FULL_Infection_Stress_Family,20210225,Solano,"['Infection', ' Stress', ' Family']"
+Solano_20210309_652_FULL_StressPrisonConditionsFamily,20210309,Solano,"['Stress', ' Prison Conditions', ' Family']"
+Solano_20210312_663_Full,20210312,Solano,['']
+Solano_20210312_666_FULL,20210312,Solano,['']
+Solano_20210317_568_FULL,20210317,Solano,['']
+Solano_20210319_579_Full,20210319,Solano,['']
+Solano_20210402_611_FULL_Family_Stress,20210402,Solano,"['Family', ' Stress']"
+Solano_20210427_886_FULL,20210427,Solano,['']
+Soledad_20201124_061_FULL,20201124,Soledad,"['Prison Conditions', ' Infection']"
+Soledad_20201130_90_FULL,20201130,Soledad,['']
+Soledad_20201215_170_FULL,20201215,Soledad,"['Infection', ' Prison Conditions', ' Stress', ' Family']"
+Soledad_20201215_171_FULL_Infection_Programs_Stress,20201215,Soledad,"['Infection', ' Programs', ' Stress']"
+Soledad_20201218_185_FULL,20201218,Soledad,"['Infection', ' Prison Conditions', ' Stress']"
+Soledad_20201224_214_Full,20201224,Soledad,['Infection']
+Soledad_20201224_219_FULL_PrisonConditionsInfectionFamily,20201224,Soledad,"['Prison Conditions', ' Family']"
+Soledad_20201226_198_Full,20201226,Soledad,['Stress']
+Soledad_20201228_172_FULL,20201228,Soledad,['']
+Soledad_20201228_180_FULL,20201228,Soledad,['']
+Soledad_20201228_181_FULL,20201228,Soledad,['']
+Soledad_20201228_182_FULL,20201228,Soledad,['']
+Soledad_20201228_195_FULL,20201228,Soledad,"['Stress', ' Infection', ' Prison Conditions', ' Programs']"
+Soledad_20201228_196_Full,20201228,Soledad,['']
+Soledad_20201229_164_FULL,20201229,Soledad,['']
+Soledad_20201230_165_FULL,20201230,Soledad,['']
+Soledad_20201231_224_FULL,20201231,Soledad,['']
+Soledad_20201231_289_FULL,20201231,Soledad,['']
+Soledad_20201231_290_FULL_Stress,20201231,Soledad,['Stress']
+Soledad_20201231_291_FULL_Stress_PrisonConditions,20201231,Soledad,"['Stress', ' Prison Conditions']"
+Soledad_20210105_159_FULLtags,20210105,Soledad,['Stress']
+Soledad_20210105_255_FULL_Infection,20210105,Soledad,['Infection']
+Soledad_20210105_286_FULL_StressInfectionPrisonConditions,20210105,Soledad,"['Stress', ' Infection', ' Prison Conditions', ' Featured']"
+Soledad_20210107_221_FULL,20210107,Soledad,['']
+Soledad_20210107_292_FULL,20210107,Soledad,['']
+Soledad_20210108_223_FULL_PrisonConditions,20210108,Soledad,['Prison Conditions']
+Soledad_20210109_241_FULL,20210109,Soledad,"['Family', ' Infection', ' Prison Conditions', ' Programs']"
+Soledad_20210112_275_FULL,20210112,Soledad,['']
+Soledad_20210113_266_FULL_Stress_PrisonConditions,20210113,Soledad,"['Stress', ' Prison Conditions']"
+Soledad_20210119_323_Full_PrisonConditions_Family,20210119,Soledad,"['Prison Conditions', ' Family']"
+Soledad_20210120_325_FULL,20210120,Soledad,['']
+Soledad_20210208_362_FULL,20210208,Soledad,['Featured']
+Soledad_20210325_647_FULL_PrisonConditionsInfection,20210325,Soledad,"['Prison Conditions', ' Infection']"
+Soledad_20210329_590_FULL_ PrisonConditionsInfection,20210329,Soledad,"['Prison Conditions', ' Infection']"
+Soledad_20210406_974_FULL_PrisonConditions,20210406,Soledad,['Prison Conditions']
+Soledad_20210416_923_FULL_Stress,20210416,Soledad,['Stress']
+Sonoma_Main_20201127_073_Full,20201127,Sonoma_Main,['']
+Stockton_20210317_562_FULL,20210317,Stockton,['']
+Stockton_20210318_569_Full_PrisonConditions,20210318,Stockton,['Prison Conditions']
+Stockton_20210318_570_Full_PrisonConditions,20210318,Stockton,['Prison Conditions']
+Stockton_20210318_571_Full_Infection,20210318,Stockton,['Infection']
+Stockton_20210329_597_FULL_Family,20210329,Stockton,['Family']
+Stockton_20210423_795_FULL,20210423,Stockton,['']
+Susanville_20210317_560_FULL_Family_Infection_PrisonConditions,20210317,Susanville,"['Family', ' Infection', ' Prison Conditions']"
+Susanville_20210419_719_Full,20210419,Susanville,['']
+Susanville_20210423_800_Full,20210423,Susanville,['']
+Susanville_20210423_863_FULL,20210423,Susanville,['']
+Susanville_20210426_877_FULL,20210426,Susanville,['']
+Susanville_20210426_878_FULL,20210426,Susanville,['']
+Susanville_20210426_890_FULL_PrisonConditionsInfection,20210426,Susanville,"['Prison Conditions', ' Infection']"
+Susanville_20210427_782_FULL,20210427,Susanville,['']
+Susanville_20210427_784_FULL,20210427,Susanville,['']
+Tehachapi_20201123_063_FULL,20201123,Tehachapi,['']
+Tehachapi_20201124_64_FULL,20201124,Tehachapi,['']
+Tehachapi_20201201_78_FULL,20201201,Tehachapi,"['Family', ' Stress', ' Infection']"
+Tehachapi_20201201_093_PrisonConditions,20201201,Tehachapi,['Prison Conditions']
+Tehachapi_20201202_83_FullPrograms,20201202,Tehachapi,"['Programs', ' Stress']"
+Tehachapi_20201207_109_FULL_PrisonConditions,20201207,Tehachapi,"['Prison Conditions', ' Programs']"
+Tehachapi_20201207_122 _FULL,20201207,Tehachapi,['']
+Tehachapi_20201207_123_FULL,20201207,Tehachapi,['Prison Conditions']
+Tehachapi_20201207_124_Full_Infection_Stress_Engilsh_Version,20201207,Tehachapi,"['Infection', ' Stress']"
+Tehachapi_20201208_125_FULL,20201208,Tehachapi,"['Prison Conditions', ' Stress']"
+Tehachapi_20201208_126_FULL,20201208,Tehachapi,"['Prison Conditions', ' Family']"
+Tehachapi_20201208_127_FULL_Stress,20201208,Tehachapi,"['Stress', ' Featured']"
+Tehachapi_20201208_98_FULL,20201208,Tehachapi,['']
+Tehachapi_20201209_107_FULL,20201209,Tehachapi,['']
+Tehachapi_20201209_111_FULL,20201209,Tehachapi,"['Infection', ' Programs', ' Stress', ' Family']"
+Tehachapi_20201209_116_FULL,20201209,Tehachapi,['']
+Tehachapi_20201210_102_FULL,20201210,Tehachapi,"['Family', ' Infection', ' Stress', ' Prison Conditions']"
+Tehachapi_20201210_115_FULL,20201210,Tehachapi,"['Infection', ' Family']"
+Tehachapi_20201210_119_FULL,20201210,Tehachapi,"['Prison Conditions', ' Family', ' Program']"
+Tehachapi_20201211_99_FULL,20201211,Tehachapi,"['Programs', ' Stress']"
+Tehachapi_20201214_143_Full_PrisonConditions_Family,20201214,Tehachapi,"['Prison Conditions', ' Family']"
+Tehachapi_20201214_144_PrisonConditions,20201214,Tehachapi,"['Prison Conditions', ' Stress']"
+Tehachapi_20201214_145_PrisonConditions_Infection,20201214,Tehachapi,"['Prison Conditions', ' Infection']"
+Tehachapi_20201214_146_Full,20201214,Tehachapi,['']
+Tehachapi_20201215_133_FullFamily,20201215,Tehachapi,"['Family', ' Prison Conditions', ' Programs']"
+Tehachapi_20201216_169_FULL,20201216,Tehachapi,['Prison Conditions']
+Tehachapi_20201218_203_Full,20201218,Tehachapi,"['Infection', ' Stress', ' Family']"
+Tehachapi_20201218_205_Full,20201218,Tehachapi,"['Family', ' Programs', ' Infection']"
+Tehachapi_20201220_120_FULL,20201220,Tehachapi,"['Family', ' Infection', ' Prison Conditions']"
+Tehachapi_20201221_149_FULL_PrisonConditions,20201221,Tehachapi,"['Prison Conditions', ' Stress']"
+Tehachapi_20201221_190_FULL,20201221,Tehachapi,"['Infection', ' Stress']"
+Tehachapi_20201228_176_FULL,20201228,Tehachapi,"['Infection', ' Prison Conditions']"
+Tehachapi_20201231_150_FULL,20201231,Tehachapi,['']
+Tehachapi_20210105_244_Full_Stress_Infection,20210105,Tehachapi,"['Stress', ' Infection']"
+Tehachapi_20210121_326_Full_PrisonConditions,20210121,Tehachapi,['Prison Conditions']
+Tehachapi_20210201_371_Full_PrisonConditions,20210201,Tehachapi,['Prison Conditions']
+Tehachapi_20210210_361_FULL,20210210,Tehachapi,['']
+Tehachapi_20210422_906_FULL_PrisonConditions,20210422,Tehachapi,['Prison Conditions']
+Tracy_20210126_297_Full,20210126,Tracy,['']
+Tracy_20210126_298_Full_Family_PrisonConditions_Stress,20210126,Tracy,"['Family', ' Prison Conditions', ' Stress']"
+Tracy_20210205_394_FULL_Stress,20210205,Tracy,['Stress']
+Tracy_20210222_451_FULL_Stress,20210222,Tracy,['Stress']
+Tracy_20210224_463_FULL,20210224,Tracy,"['Infection', ' Stress', ' Featured']"
+Tracy_20210226_480_FULL,20210226,Tracy,['']
+Tracy_20210311_662_Full_FamilyProgramsStress,20210311,Tracy,"['Family', ' Programs', ' Stress']"
+Tracy_20210312_661_FULL_Stress_PrisonConditions,20210312,Tracy,"['Stress', ' Prison Conditions']"
+Tracy_20210316_581_Full,20210316,Tracy,['']
+Tracy_20210319_580_FULL_Family,20210319,Tracy,['Family']
+Tracy_20210330_588_Full_Stress_PrisonConditions,20210330,Tracy,"['Stress', ' Prison Conditions']"
+Vacaville_20201015_154_FULL,20201015,Vacaville,['']
+Vacaville_20201112_035_FULL,20201112,Vacaville,"['Programs', ' Prison Conditions']"
+Vacaville_20201222_100_FULL,20201222,Vacaville,['']
+Vacaville_20201222_155_FULL,20201222,Vacaville,['']
+Vacaville_20210104_288_FULL_PrisonConditions_Programs_Infection,20210104,Vacaville,"['Prison Conditions', ' Programs', ' Infection']"
+Vacaville_20210106_234_Full,20210106,Vacaville,"['Prison Conditions', ' Stress']"
+Vacaville_20210426_839_FULL,20210426,Vacaville,['']
+Vacaville_20210426_862_FULL_PrisonConditions,20210426,Vacaville,['Prison Conditions']
+Vacaville_20210426_873_FULL_PrisonConditionsInfectionStress,20210426,Vacaville,"['Prison Conditions', ' Infection', ' Stress', ' Featured']"
+Vacaville_20210426_900_FULL,20210426,Vacaville,['']
+Vacaville_20210426_901_FULL,20210426,Vacaville,['']
+Vacaville_20210428_845_FULL,20210428,Vacaville,['']
+Vacaville_20210430_1014_FULL_InfectionPrisonConditions,20210430,Vacaville,"['Infection', ' Prison Conditions']"
+Valley State_20210303_526_FULL_PrisonConditionsFamily,20210303,Valley State,"['Prison Conditions', ' Family']"
+Valley State_20210315_541_FULL,20210315,Valley State,['']
+Valley State_20210319_575_FULL_Stress_Family,20210319,Valley State,"['Stress', ' Family']"
+ValleyState_20210211_443_FULL_PrisonConditions,20210211,ValleyState,['Prison Conditions']
+ValleyState_20210221_496_Full_Family_PrisonConditions_Stress_Infection,20210221,ValleyState,"['Family', ' Prison Conditions', ' Stress', ' Infection']"
+ValleyState_20210222_457_Full,20210222,ValleyState,['']
+ValleyState_20210222_486_Full_Infections_PrisonConditions_Family,20210222,ValleyState,"['Infections', ' Prison Conditions', ' Stress', ' Family']"
+ValleyState_20210226_478_Full,20210226,ValleyState,"['Infections', ' Stress', ' Prison Conditions', ' Programs']"
+ValleyState_20210301_537_FULL,20210301,ValleyState,['']
+Valleystate_20210322_627_FULL,20210322,Valleystate,['']
+ValleyState_20210325_634_FULL_FamilyStressPrisonConditions,20210325,ValleyState,"['Family', ' Stress', ' Prison Conditions', ' Featured']"
+ValleyState_20210329_593_FULL,20210329,ValleyState,['']
+ValleyState_20210329_594_FULL,20210329,ValleyState,"['Infection', '  Prison Conditions', ' Family']"
+ValleyState_20210402_613_FULL_PrisonConditions_Infection,20210402,ValleyState,"['Prison Conditions', ' Infection']"
+ValleyState_20210402_614_FULL_PrisonConditions_Infection,20210402,ValleyState,"['Infection', ' Stress', ' Prison Conditions']"
+ValleyState_20210406_969_Full_Programs_Family_Infection,20210406,ValleyState,"['Programs', ' Family', ' Infection']"
+ValleyState_20210412_948_FULL_PrisonConditionsInfectionStress,20210412,ValleyState,"['Prison Conditions', ' Infection', ' Stress']"
+ValleyState_20210413_950_FULL,20210413,ValleyState,['']
+ValleyState_20210420_715_Full,20210420,ValleyState,['']
+ValleyState_20210426_859_FULL_FamilyPrisonConditionsInfection,20210426,ValleyState,"['Family', ' Prison Conditions', ' Infection']"
+ValleyState_20210428_840_FULL_PrisonConditionsStressFamily,20210428,ValleyState,"['Prison Conditions', ' Stress', ' Family']"
+Wasco_20210221_492a_FULL_Stress_PrisonConditions,20210221,Wasco,"['Stress', ' Prison Conditions']"
+Wasco_20210221_492b_FULL_Stress,20210221,Wasco,"['Programs', ' Stress', ' Featured']"
+Wasco_20210222_455_FULL_Family_PrisonConditions_Stress,20210222,Wasco,"['Family', ' Prison Conditions', ' Stress']"
+Wasco_20210222_494_FULL_Family_PrisonConditions,20210222,Wasco,"['Family', ' Prison Conditions']"
+Wasco_20210225_471_Full_Stress,20210225,Wasco,['Stress']
+Wasco_20210226_477_Full_Stress,20210226,Wasco,['Stress']
+Wasco_20210304_510_Full_Family_Infection,20210304,Wasco,"['Family', ' Infection']"
+Wasco_20210316_557_FULL_Programs_Family_Stress,20210316,Wasco,"['Programs', ' Family', ' Stress']"
+Wasco_20210316_559_FULL _Infections_PrisonConditions,20210316,Wasco,"['Infection', ' Prison Conditions']"
+Wasco_20210317_563_FULL_Infection_Stress_Family,20210317,Wasco,"['Infection', ' Stress', ' family']"
+Wasco_20210321_620_FULL_Stress_Infection,20210321,Wasco,"['Stress', ' Infection']"
+Wasco_20210329_599_FULL_Infection_Stress,20210329,Wasco,"['Infection', ' Stress', ' Featured']"
+Wasco_20210422_914_FULL,20210422,Wasco,['']
+LosAngeles_Metropolitan_20210907_FULL,20210907,LosAngeles_Metropolitan,['']
+Merced_USPAtwater_20210909_002_FULL,20210909,Merced_USPAtwater,['']
+Merced_USPAtwater_20210909_001_FULL_Family_Infection,20210909,Merced_USPAtwater,"['Family', ' Infection']"
+USP_Victorville_20210922_001_FULL,20210922,USP_Victorville,['']
+USP_Victorville_20210924_000_FULL_PrisonConditions_Programs,20210924,USP_Victorville,"['Prison Conditions', ' Programs']"
+Merced_USPAtwater_20210908_FULL,20210908,Merced_USPAtwater,['']
+Merced_USPAtwater_20210916_FULL_Infection,20210916,Merced_USPAtwater,['Infection']
+Merced_USPAtwater_20210917_FULL,20210917,Merced_USPAtwater,['']
+LosAngeles_Metropolitan_20210917_FULL,20210917,LosAngeles_Metropolitan,['']
+LosAngeles_Metropolitan_20210831_001_FULL,20210831,LosAngeles_Metropolitan,['']
+LosAngeles_Metropolitan_20210831_002_FULL_PrisonConditions_Stress,20210831,LosAngeles_Metropolitan,"['Prison Conditions', ' Stress']"
+Fresno_Mendota_20210916_FULL,20210916,Fresno_Mendota,['']
+HighDesert_20210202_380_FULL_Infection,20210202,HighDesert,['Infection']
+HighDesert_20210208_344_FULL,20210208,HighDesert,['']
+HighDesert_20210208_345_FULL,20210208,HighDesert,['']
+PleasantValley_20210205_391_FULL,20210205,PleasantValley,['']
+PleasantValley_20210209_339_FULL,20210209,PleasantValley,"['Programs', ' Family']"
+PleasantValley_20210209_340_FULL,20210209,PleasantValley,"['Prison Conditions', ' Family']"
+PleasantValley_20210212_397_Full,20210212,PleasantValley,"['Family', ' Programs']"
+Solano_20210504_737_FULL,20210504,Solano,['']
+NewFolsom_20220119_18246_FULL,20220119,NewFolsom,['']
+NewFolsom_20220208_95458_FULL,20220208,NewFolsom,['']
+NewFolsom_20220211_54709_FULL,20220211,NewFolsom,['']
+Chowchilla_20210514_09_19_FULL,20210514,Chowchilla,['']
