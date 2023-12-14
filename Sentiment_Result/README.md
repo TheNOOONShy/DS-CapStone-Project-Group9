@@ -1,6 +1,7 @@
 # HOW TO RUN FILES IN FOLDER
 
 ## Required Packages
+the required packages and versions are in requirements.yml
 
 ## Run Order
 merging.py
@@ -37,6 +38,7 @@ creates models that are saved into pickle form, and displays in command line
 
 
 ##lightgbm_importance.py
+(this is for XGBoost importance, bad naming of file)
 run python lightgbm_importance.py
 
 on lines 10-12 (seen below) can be adjusted to identify which group we are looking at
@@ -55,3 +57,6 @@ run python plot_logit_result.py
 `label_mapping` on line 7 turns column names into readable feature names, items can be added as needed to dictionary via adding in the format `"column_name": "readable_label",` (please keep comma at end for consistancy)
 
 turns the logistic regressions and linear regression pickle into negative log p-value plots
+
+## CSV files
+The csv files are created elsewhere, but should not be touched, especially not final_merged_data.csv, weeklyDeathCaserate.csv, and weeklydata.csv as the first two are used by merging.py and lightgbm_importance and flair_logistic use the last one.
