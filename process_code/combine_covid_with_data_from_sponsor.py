@@ -1,6 +1,7 @@
 import csv
 import datetime
 
+
 stop = False
 definition_of_week = dict()
 fields = ['start_date', 'end_date']
@@ -22,7 +23,7 @@ with open('data/new_Covid_CA_2020_Weekly_stats.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line = 0
     for row in csv_reader:
-        if line == 0 or line == 2: 
+        if line == 0 or line == 2:
             line+=1
             continue
         if line == 1:
@@ -50,7 +51,7 @@ with open('data/new_Covid_CA_2021_Weekly_stats.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line = 0
     for row in csv_reader:
-        if line == 0 or line == 2: 
+        if line == 0 or line == 2:
             line+=1
             continue
         if line == 1:
@@ -78,7 +79,7 @@ with open('data/new_Covid_CA_2022_Weekly_stats.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line = 0
     for row in csv_reader:
-        if line == 0 or line == 2: 
+        if line == 0 or line == 2:
             line+=1
             continue
         if line == 1:
@@ -106,7 +107,7 @@ with open('data/new_Covid_CA_2023_Weekly_stats.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line = 0
     for row in csv_reader:
-        if line == 0 or line == 2: 
+        if line == 0 or line == 2:
             line+=1
             continue
         if line == 1:
@@ -138,7 +139,7 @@ with open('data/new_redacted_full_stories_table.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line = 0
     for row in csv_reader:
-        if line == 0: 
+        if line == 0:
             line+=1
             continue
         file_name = row[1]
@@ -158,7 +159,7 @@ with open('data/new_redacted_full_stories_table.csv') as csv_file:
 
 
 filename = "data/combined_covid_script_final_table_weekly.csv"
-with open(filename, 'w') as csvfile:  
-    csvwriter = csv.writer(csvfile)     
-    csvwriter.writerow(fields)  
-    csvwriter.writerows(full_information) 
+with open(filename, 'w') as csvfile:
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerow(fields)
+    csvwriter.writerows(full_information)
