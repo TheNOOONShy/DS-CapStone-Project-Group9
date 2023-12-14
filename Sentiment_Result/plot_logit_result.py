@@ -4,7 +4,38 @@ import statsmodels.api as sm
 import matplotlib.pyplot as plt
 import math
 import numpy as np
-
+label_mapping = {
+    'Week_Number_4': 'Week Number^4',
+    'Week_Number_3': 'Week Number^3',
+    'Week_Number_2': 'Week Number^2',
+    'Week_Number_1': 'Week Number',
+    "death number": "Weekly Deaths",
+    "Type_Prison": "Is Prison",
+    "case number": "Weekly Cases",
+    "Level_State": "Is State Prison",
+    "Number_of_Deaths": "Weekly Deaths",
+    "Number_of_Cases": "Weekly Cases",
+    "Week Label": "Week Number",
+    "case rate": "Weekly Case Rate",
+    "death rate": "Weekly Death Rate",
+    "NLTK_Compound": "Vader Score",
+    "is_covid_peak": "Is Covid Peak",
+    "LetterCall_Letter": "Is Letter",
+    "length": "Length (chars)",
+    "Level_Federal": "Is Federal Prison",
+    "Type_case number": "Weekly Prison Case Number",
+    "Type_death number": "Weekly Prison Death Number",
+    "Specific_Facility_Case_Rate": "Weekly Case Rate",
+    "Specific_Facility_Death_Rate": "Weekly Death Rate",
+    "Prison Death Number": "Weekly Death Number",
+    "Prison Case Number": "Weekly Case Number",
+    "Prison or County Population": "Size",
+    "Specific_Facility_Case_Rate" : "Weekly Case Rate",
+    "Specific_Facility_Death_Rate": "Weekly Death Rate",
+    "Total_Case_Rate": "Weekly Case Rate",
+    "Total_Death_Rate": "Weekly Death Rate",
+    # Add more mappings as needed
+}
 def round_to_sf(x, sf):
     # Custom rounding function for significant figures
     if x == 0:
@@ -13,34 +44,7 @@ def round_to_sf(x, sf):
         return round(x, -int(math.floor(math.log10(abs(x)))) + (sf - 1))
 
 def map_labels(original_labels):
-    label_mapping = {
-        'Week_Number_4': 'Week Number^4',
-        'Week_Number_3': 'Week Number^3',
-        'Week_Number_2': 'Week Number^2',
-        'Week_Number_1': 'Week Number',
-        "death number": "Weekly Deaths",
-        "Type_Prison": "Is Prison",
-        "case number": "Weekly Cases",
-        "Level_State": "Is State Prison",
-        "Number_of_Deaths": "Weekly Deaths",
-        "Number_of_Cases": "Weekly Cases",
-        "Week Label": "Week Number",
-        "case rate": "Weekly Case Rate",
-        "death rate": "Weekly Death Rate",
-        "NLTK_Compound": "Vader Score",
-        "is_covid_peak": "Is Covid Peak",
-        "LetterCall_Letter": "Is Letter",
-        "length": "Length (chars)",
-        "Level_Federal": "Is Federal Prison",
-        "Type_case number": "Weekly Prison Case Number",
-        "Type_death number": "Weekly Prison Death Number",
-        "Specific_Facility_Case_Rate": "Weekly Case Rate",
-        "Specific_Facility_Death_Rate": "Weekly Death Rate",
-        "Prison Death Number": "Weekly Death Number",
-        "Prison Case Number": "Weekly Case Number",
-        "Prison or County Population": "Size"
-        # Add more mappings as needed
-    }
+
     return [label_mapping.get(label, label) for label in original_labels]
 
 def plot(file):
@@ -54,7 +58,7 @@ def plot(file):
             coefficients = data.params.apply(lambda x: round_to_sf(x, 4))
             # print(coefficients.index)
             # Map original labels to human-readable labels
-            readable_labels = map_labels(list(coefficients.index), label_mapping)
+            readable_labels = map_labels(list(coefficients.index))
             # print('here')
 
             p_values = data.pvalues

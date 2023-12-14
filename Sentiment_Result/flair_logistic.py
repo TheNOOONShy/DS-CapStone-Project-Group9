@@ -9,6 +9,9 @@ import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from imblearn.over_sampling import RandomOverSampler
 
+SINGLE_FACILITY = False
+IS_BOTH = False
+IS_PRISON = False
 
 def run_facility(facility_name, data):
     facility_data = data
@@ -39,19 +42,20 @@ def run_facility(facility_name, data):
     columns_to_include = ["case number",
     #"case rate",
     "death number",
-    # "death rate", 
+    # "death rate",
     "length",
     "Week Label",
     "NLTK_Compound",
     "is_covid_peak",
-    "Prison or County Population"]
+    "Prison or County Population",
+    "is_call"]
     # ]
 
-    letter_call_dummy = pd.get_dummies(facility_data["Letter/Call"], prefix="LetterCall", drop_first=True)
+    # letter_call_dummy = pd.get_dummies(facility_data["Letter/Call"], prefix="LetterCall", drop_first=True)
     # for a in letter_call_dummy["LetterCall_Letter"]:
     #     print(a)
     # Combine dummy variable with other selected columns
-    X = pd.concat([facility_data[columns_to_include], letter_call_dummy], axis=1)
+    X = facility_data[columns_to_include]
     # X['Week Label 2'] = X['Week Label']* X['Week Label']
     # X['Week Label 3'] = X['Week Label']* X['Week Label']* X['Week Label']
     # X['Week Label 4'] = X['Week Label']* X['Week Label']* X['Week Label']* X['Week Label']
@@ -124,9 +128,7 @@ def run_facility(facility_name, data):
     except Exception as e:
         print(f"Error fitting the model for {facility_name}: {str(e)}")
 
-SINGLE_FACILITY = False
-IS_BOTH = False
-IS_PRISON = False
+
 # Load the data
 file_path = "weeklydata.csv"
 data = pd.read_csv(file_path)

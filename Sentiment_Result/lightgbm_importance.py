@@ -7,6 +7,9 @@ from sklearn.preprocessing import PolynomialFeatures
 from imblearn.over_sampling import RandomOverSampler
 from xgboost import XGBClassifier, plot_importance
 
+SINGLE_FACILITY = False
+IS_BOTH = False
+IS_PRISON = True
 
 def run_facility_xgboost(facility_name, data):
     facility_data = data
@@ -34,13 +37,12 @@ def run_facility_xgboost(facility_name, data):
             print(f"Skipping {facility_name} as it does not have 2 different weeks of data")
     # Specify columns for X (including "Letter/Call", "length", and excluding rates, "Percent Occupied", and "Type_Jail")
 
-    columns_to_include = ["case number", "case rate","death number", "death rate", "length", "Week Label","NLTK_Compound","is_covid_peak"]
+    columns_to_include = ["case number", "case rate","death number", "death rate", "length", "Week Label","NLTK_Compound","is_covid_peak", "is_call"]
 
-    letter_call_dummy = pd.get_dummies(facility_data["Letter/Call"], prefix="LetterCall", drop_first=True)
     # for a in letter_call_dummy["LetterCall_Letter"]:
     #     print(a)
     # Combine dummy variable with other selected columns
-    X = pd.concat([facility_data[columns_to_include], letter_call_dummy], axis=1)
+    X = facility_data[columns_to_include]
     # X['Week Label 2'] = X['Week Label']* X['Week Label']
     # X['Week Label 3'] = X['Week Label']* X['Week Label']* X['Week Label']
     # X['Week Label 4'] = X['Week Label']* X['Week Label']* X['Week Label']* X['Week Label']
@@ -90,9 +92,7 @@ def run_facility_xgboost(facility_name, data):
     except Exception as e:
         print(f"Error fitting the XGBoost model for {facility_name}: {str(e)}")
 
-SINGLE_FACILITY = True
-IS_BOTH = True
-IS_PRISON = True
+
 # Load the data
 file_path = "weeklydata.csv"
 data = pd.read_csv(file_path)
