@@ -19,7 +19,9 @@ Used to create data that analysis.py will use
 run python analysis.py
 
 `TYPE_PRISON = 1` on line 6 can be adjusted for jails or Prisons
+
 `TYPE_PRISON = 1` is for prisons
+
 `TYPE_PRISON = 0` is for jails
 
 creates models that are saved into pickle form, and displays in command line
@@ -31,7 +33,9 @@ run python flair_logistic.py
 on lines 12-14 (seen below) can be adjusted to identify which group we are looking at
 
 `SINGLE_FACILITY = False #If individual facilities are wanted, will overwrites other two
+
 IS_BOTH = False  #Combine both jail and prison, will overwrite is_prison
+
 IS_PRISON = False  #True means prison only, False means jails only
 `
 creates models that are saved into pickle form, and displays in command line
@@ -44,7 +48,9 @@ run python lightgbm_importance.py
 on lines 10-12 (seen below) can be adjusted to identify which group we are looking at
 
 `SINGLE_FACILITY = False #If individual facilities are wanted, will overwrites other two
+
 IS_BOTH = False  #Combine both jail and prison, will overwrite is_prison
+
 IS_PRISON = False  #True means prison only, False means jails only
 `
 
