@@ -8,19 +8,8 @@ import mammoth
 import csv
 from flair.data import Sentence
 from nltk.tokenize import sent_tokenize
-
-# import nltk
-# import ssl
-
-# try:
-#     _create_unverified_https_context = ssl._create_unverified_context
-# except AttributeError:
-#     pass
-# else:
-#     ssl._create_default_https_context = _create_unverified_https_context
-
-# nltk.download()
-
+import nltk
+nltk.download('punkt')
 # Initialize Flair sentiment model
 flair_sentiment_model = flair.models.TextClassifier.load('sentiment')
 
@@ -45,7 +34,7 @@ class SentimentAnalysis:
     self.label = label
     self.polarity = polarity
     self.length = length
- 
+
 def remove(text, eliminated_char):
     return str(np.char.replace(text, eliminated_char, ''))
 
@@ -71,7 +60,7 @@ def read_and_collect_data(breakdown_sentence):
     # Iterate through files in the directory
     for filename in os.listdir(os.path.join(sponsor_dir, data_dir)):
         if filename.endswith(".txt"):
-            with open(os.path.join(sponsor_dir, data_dir, filename), 
+            with open(os.path.join(sponsor_dir, data_dir, filename),
                       "r", encoding="utf-8", errors="replace") as file:
                 text = remove_undecodable_bytes(file.read())
         elif filename.endswith(".docx"):
@@ -137,10 +126,10 @@ def read_and_collect_data(breakdown_sentence):
 
 
 def write_to_csv(fields, results):
-    with open(output_file_breakdown, 'w') as csvfile:  
-        csvwriter = csv.writer(csvfile)     
-        csvwriter.writerow(fields)  
-        csvwriter.writerows(results) 
+    with open(output_file_breakdown, 'w') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(fields)
+        csvwriter.writerows(results)
     print("Sentiment analysis results saved to", output_file_breakdown)
 
 
@@ -160,17 +149,17 @@ def write_to_csv_with_pd():
 
 def collect_data_to_row():
     results = []
-    fields = ["filename", 
-              "overall_label", 
-              "overall_polarity", 
-              "sentimental_label_list", 
-              "sentimental_polarity_list", 
-              "avg_polarity", 
-              "negative_sentences", 
-              "negative_sentences_count", 
-              "positive_sentences", 
+    fields = ["filename",
+              "overall_label",
+              "overall_polarity",
+              "sentimental_label_list",
+              "sentimental_polarity_list",
+              "avg_polarity",
+              "negative_sentences",
+              "negative_sentences_count",
+              "positive_sentences",
               "positive_sentences_count",
-              "sentences_count", 
+              "sentences_count",
               "avg_sentences_length"]
     for filename in file_name_list:
         total = 0
@@ -185,15 +174,15 @@ def collect_data_to_row():
         average = total/len(score_map[filename])
         avg_sentences_length = total_sentence_length/len(score_map[filename])
         sentences_count = len(negative_sentences_map[filename]) + len(positive_sentences_map[filename])
-        result = [filename, 
-                  sentiment_label_map[filename].label, 
-                  sentiment_label_map[filename].polarity, 
-                  label_list, 
-                  polarity_list, 
-                  average, 
-                  negative_sentences_map[filename], 
-                  len(negative_sentences_map[filename]), 
-                  positive_sentences_map[filename], 
+        result = [filename,
+                  sentiment_label_map[filename].label,
+                  sentiment_label_map[filename].polarity,
+                  label_list,
+                  polarity_list,
+                  average,
+                  negative_sentences_map[filename],
+                  len(negative_sentences_map[filename]),
+                  positive_sentences_map[filename],
                   len(positive_sentences_map[filename]),
                   sentences_count,
                   avg_sentences_length]
