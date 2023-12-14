@@ -219,7 +219,7 @@ The "Type" column specifies the type of facility associated with each transcript
 The "Week Label" column is designed to correlate each record with a specific time period. This labeling facilitates the association of each record to a designated week within a defined timeframe.
 
 **Reference Table**:  
-- The column references an accompanying table named `week.csv`, which details the week assignments from December 30, 2019, to December 31, 2023.
+- The column references an accompanying table named `Week_Peak_Omicron.csv`, which details the week assignments from December 30, 2019, to December 31, 2023.
 - In this reference table, the week starting from December 30, 2019, to January 5, 2020, is labeled as "week 0". Subsequent weeks follow a natural weekly progression, each assigned a unique sequential number.
 
 
@@ -333,6 +333,84 @@ The "is_Omicron" column identifies the weeks that fall within the duration of th
 
 **Description**:  
 The "is_Death_Peak" column is used to indicate whether a specific week is a peak period for COVID-19 related deaths. Similar to "is_Covid_Peak", this column marks a week as a peak death period (makes as 1) if the number of COVID-19 related deaths in that week is significantly higher than average, based on specific criteria or thresholds relevant to the mortality data.
+
+</details>
+
+<details>
+<summary>View `\Sentiment_Result\SummaryTableSupport\Week_Peak_Omicron.csv` Description</summary>
+
+
+### `Week Label`
+
+
+**Description**:  
+The "Week Label" column is designed to correlate each record with a specific time period. This labeling facilitates the association of each record to a designated week within a defined timeframe. This table is utilized in the `Summary_Weekly.csv` file.
+
+**Structure**:  
+- This table details the week assignments from December 30, 2019, to December 31, 2023.
+- In this table, the week starting from December 30, 2019, to January 5, 2020, is labeled as "week 0". Subsequent weeks follow a natural weekly progression, each assigned a unique sequential number.
+
+
+### `Start Date`
+
+**Description**:  
+The "Start Date" column denotes the beginning date of the week as identified in the "Week Label" column. It marks the first day of the specific week to which the record is attributed.
+
+**Format**:  
+- Dates are formatted in a standard date format YYYY-MM-DD (Year-Month-Day).
+
+**Context**:  
+These "Start Date"and "End Date" columns are directly tied to the "Week Label" column, providing precise date ranges for each labeled week. For instance, if a record is assigned to "week 0" in the "Week Label" column, the "Start Date" and "End Date" would correspond to the start and end dates of that particular week.
+
+
+
+### `End Date`
+
+**Description**:  
+ The "End Date" column denotes the last day of the week in the "Week Label" column. 
+
+**Format**:  
+- Like the "Start Date", "End Date" is also formatted in a standard date format (YYYY-MM-DD) .
+
+
+**Context**:  
+These "Start Date"and "End Date" columns are directly tied to the "Week Label" column, providing precise date ranges for each labeled week. For instance, if a record is assigned to "week 0" in the "Week Label" column, the "Start Date" and "End Date" would correspond to the start and end dates of that particular week.
+
+
+ ### `Weekly Cases`
+
+**Description**:  
+The "Weekly Cases" column quantifies the number of new COVID-19 cases identified within the time frame of each week as defined by the "Week Label". It reflects the total count of newly reported COVID-19 cases for that specific week.
+
+**Context**:  
+- This data is tied to the corresponding "Week Label", providing a weekly snapshot of the COVID-19 case count.
+- Each value in the "Weekly Cases" column represents the new cases that emerged during the week designated by the "Week Label".
+
+
+### `is_Peak`
+
+**Description**:  
+The "is_Peak" column indicates whether a specific week (as denoted by the "Week Label") represents a peak period of COVID-19 cases. A week is marked as a peak period (marked as 1) when the number of new COVID-19 cases in California for that week exceeds a certain threshold. This threshold is defined as the median of the weekly new cases plus the standard deviation of the weekly new cases in California's COVID-19 data.
+
+### `Weekly Deaths`
+
+**Description**:  
+The "Death Number" column indicates the total number of new COVID-19 related deaths that occurred within each week as defined by the "Week Label". This figure represents the count of newly reported fatalities due to COVID-19 for that specific week.
+
+**Context**:  
+- The data in this column is directly linked to the corresponding "Week Label", providing a weekly record of the death associated with the COVID-19 pandemic.
+- Each value in the "Death Number" column reflects the number of deaths attributed to COVID-19 during the designated week.
+
+### `is_Omicron`
+
+**Description**:  
+The "is_Omicron" column identifies the weeks that fall within the duration of the Omicron variant's prevalence, as declared by the World Health Organization (WHO). 
+
+### `is_Death_Peak`
+
+**Description**:  
+The "is_Death_Peak" column is used to indicate whether a specific week is a peak period for COVID-19 related deaths. Similar to "is_Covid_Peak", this column marks a week as a peak death period (makes as 1) if the number of COVID-19 related deaths in that week is significantly higher than average, based on specific criteria or thresholds relevant to the mortality data.
+
 
 </details>
 
