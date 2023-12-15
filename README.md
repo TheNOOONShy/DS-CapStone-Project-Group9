@@ -38,11 +38,11 @@ We are looking at transcripts from prisoners and those in jail about covid condi
 
 ## Repository Structure
 
-`/Sentiment_Result` :The main analysis in there.
-`/process_code` : The process code.
-`/covid_data`: The raw covid data.
-`/Graph` : The Graph we used in meeting and report.
-`/Project_Goals`: Work breakdown structure diagram.
+`\Sentiment_Result` :The main analysis in there.
+`\process_code` : The process code.
+`\covid_data`: The raw covid data.
+`\Graph` : The Graph we used in meeting and report.
+`\Project_Goals`: Work breakdown structure diagram.
 
 
 ## How to Navigate the Repository
