@@ -1,17 +1,12 @@
 ## required packages:
 requirements.yml within folder (there are some that are unnessicary for this folder but those are needed to run Sentiment_result)
 
-## sentiment_analysis_results_folder_flair
-
-What we used to get the sentiments
-
-simply `run python sentiment_analysis_results_folder_flair.py`
-
-
 
 ## Run Order
 capture_info_from_redacted_full_stories.py
+
 combine_covid_with_data_from_sponsor.py
+
 convert_covid_data_to_weekly.py
 
 file_lenghts.py
