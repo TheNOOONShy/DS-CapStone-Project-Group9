@@ -1,0 +1,103 @@
+Location,County,Level,Type,Name in CDCR,Prison/County Population,Prison Percent Occupied
+Alameda_SantaRita,Alameda,County,Jail,,1685886.0,
+Amador_Main,Amador,County,Jail,,38531.0,
+Avenal,Kings,State,Prison,Avenal State Prison (ASP),4592.0,157.9
+Butte_Main,Butte,County,Jail,,217769.0,
+CaliforniaCity,Kern,State,Prison,California City Correctional Facility (CAC),927251,
+Calipatria,Imperial,State,Prison,Calipatria State Prison (CAL),2706.0,117.2
+Centinela,Imperial,State,Prison,California State Prison-Centinela (CEN),2802.0,121.4
+Chino,San Bernardino,State,Prison,California Institution for Men (CIM),2371.0,147.8
+Chowchilla,Madera,State,Prison,Central California Women's Facility (CCWF),2290.0,115.1
+Chuckawalla,Riverside,State,Prison,Chuckawalla Valley State Prison (CVSP),2021.0,116.3
+CIW,San Bernardino,State,Prison,California Institution for Women (CIW),1149.0,89.7
+CMC,San Luis Obispo,State,Prison,California Men's Colony (CMC),2065.0,54.1
+Corcoran,Kings,State,Prison,California State Prison-Corcoran (COR),3505.0,112.5
+CSATF,Kings,State,Prison,Substance Abuse Treatment Facility (SATF),4821.0,140.8
+FireCamps,California,State,Department,,40129160.0,
+Folsom,Sacramento,State,Prison,Folsom State Prison (FSP),2875.0,138.9
+Fresno_Main,Fresno,County,Jail,,1032227.0,
+Fresno_Mendota,Fresno,Federal,Prison,Out of Data,1032227.0,
+High Desert,Lassen,State,Prison,High Desert State Prison (HDSP),2387.0,102.1
+Ironwood,Riverside,State,Prison,Ironwood State Prison (ISP),3051.0,138.7
+Jamestown,Tuolumne,State,Prison,Sierra Conservation Center (SCC),4265.0,85.8
+Kern_GSAnnex,Kern,State,Prison,Kern Valley State Prison (KVSP),2871.0,117.3
+KernValley,Kern,State,Prison,Kern Valley State Prison (KVSP),2871.0,117.3
+Kings_Main,Kings,County,Jail,,156444.0,
+Lancaster,Los Angeles,State,Prison,California State Prison-Los Angeles County (LAC),2679.0,116.5
+LosAngeles_MensCentral,Los Angeles,County,Jail,,10257557.0,
+LosAngeles_Metropolitan,Los Angeles,County,Jail,,10257557.0,
+LosAngeles_TwinTowers,Los Angeles,County,Jail,,10257557.0,
+Merced_Latorraca,Merced,County,Jail,,287420.0,
+Merced_Main,Merced,County,Jail,,287420.0,
+Merced_USPAtwater,Merced,Federal,Prison,Out of Data,287420.0,
+Mule Creek,Amador,State,Prison,Mule Creek State Prison (MCSP),3803.0,115.8
+NewFolsom,Sacramento,State,Prison,California State Prison-Sacramento (SAC),1841.0,100.7
+Norco,Riverside,State,Prison,California Rehabilitation Center (CRC),2919.0,160.2
+NorthKern,Kern,State,Prison,North Kern State Prison (NKSP),3799.0,141.0
+Orange_Central,Orange,County,Jail,,3228519.0,
+PelicanBay,Fresno,State,Prison,Pelican Bay State Prison (PBSP),1576.0,66.2
+Pleasant Valley,Riverside,State,Prison,Pleasant Valley State Prison (PVSP),2660.0,115.3
+Riverside_Benoit,Riverside,County,Jail,,2468145.0,
+Riverside_Blythe,Riverside,County,Jail,,2468145.0,
+Riverside_Byrd,Riverside,County,Jail,,2468145.0,
+Riverside_Presley,Riverside,County,Jail,,2468145.0,
+Riverside_Smith,Riverside,County,Jail,,2468145.0,
+Riverside_unspecified,Riverside,County,Jail,,2468145.0,
+SalinasValley,Monterey,State,Prison,Salinas Valley State Prison (SVSP),2687.0,109.6
+SanQuentin,Marin,State,Prison,San Quentin State Prison (SQ),3488.0,113.1
+SanBernadino_WestValley,San Bernardino,County,Jail,,2217398.0,
+SanBernardino_Central,San Bernardino,County,Jail,,2217398.0,
+SanJoaquin_Main,San Joaquin,County,Jail,,782545.0,
+SantaClara_Elmwood,Santa Clara,County,Jail,,1967585.0,
+SantaClara_Main,Santa Clara,County,Jail,,1967585.0,
+Solano,Solano,State,Prison,California State Prison-Solano (SOL),3718.0,143.3
+Soledad,Monterey,State,Prison,Correctional Training Facility (CTF),4293.0,153.3
+Sonoma_Main,Sonoma,County,Jail,,496668.0,
+Stockton,San Joaquin,State,Prison,California Health Care Facility (CHCF),2258.0,76.5
+Susanville,Lassen,State,Prison,California Correctional Center (CCC),2308.0,59.4
+Tehachapi,Kern,State,Prison,California Correctional Institution (CCI),1715.0,113.7
+Tracy,San Joaquin,State,Prison,Deuel Vocational Institution (DVI),2047.0,121.8
+Tulare_BobWiley,Tulare,County,Jail,,484423.0,
+Tulare_Main,Tulare,County,Jail,,484423.0,
+Tulare_SouthCounty,Tulare,County,Jail,,484423.0,
+USP_Victorville,San Bernardino,Federal,Prison,Out of Data,2217398.0,
+Vacaville,Solano,State,Prison,California State Prison-Solano (SOL),3326.0,128.2
+Valley State,Madera,State,Prison,Valley State Prison (VSP),3247.0,165.6
+Ventura_Main,Ventura,County,Jail,,852747.0,
+Ventura_Todd,Ventura,County,Jail,,852747.0,
+Wasco,Kern,State,Prison,Wasco State Prison (WSP),3620.0,121.3
+Yuba,Yuba,County,Jail,,79290.0,
+Orange_TheoLacy,Orange,County,Jail,,3228519.0,
+Donovan,San Diego,State,Prison,Richard J. Donovan Correctional Facility (RJD),3291.0,110.0
+Delano,Kern,State,Prison,Out of Data,927251.0,
+Merced_Latorraca ,Merced,County,Jail,,287420.0,
+Merced County,Merced,County,Jail,,287420.0,
+Kern Valley,Kern,State,Prison,Kern Valley State Prison (KVSP),2871.0,117.3
+Fresno Main,Fresno,County,Jail,,1032227.0,
+Kings County,Kings,County,Jail,,156444.0,
+Fresno Mendota,Fresno,Federal,Prison,Out of Data,1032227.0,
+New Folsom,Sacramento,State,Prison,California State Prison-Sacramento (SAC),1841.0,100.7
+Ventura County,Ventura,County,Jail,,852747.0,
+Fresno County,Fresno,County,Jail,,1032227.0,
+San Bernardino County,San Bernardino,County,Jail,,2217398.0,
+San Bernardino West Valley Detention Center,San Bernardino,County,Jail,,2217398.0,
+North Kern,Kern,State,Prison,North Kern State Prison (NKSP),3799.0,141.0
+San Quentin,Marin,State,Prison,San Quentin State Prison (SQ),3488.0,113.1
+Sonoma Main,Sonoma,County,Jail,,496668.0,
+Alameda County,Alameda,County,Jail,,1685886.0,
+Amador County,Amador,County,Jail,,38531.0,
+Riverside County,Riverside,County,Jail,,2468145.0,
+Tulare County,Tulare,County,Jail,,484423.0,
+Los Angeles MDC,Los Angeles,County,Jail,,10257557.0,
+Pelican Bay,Del Norte,State,Prison,,27558.0,
+Butte County,Butte,County,Jail,,217769.0,
+Los Angeles County,Los Angeles,County,Jail,,10257557.0,
+Fire Camps,California,State,Department,Out of Data,40129160.0,
+San Bernardino Central Detention Center,San Bernardino,County,Jail,,2217398.0,
+California City,Kern,Private,Prison,Out of Data,927251.0,
+Kern GSA,Kern,State,Prison,Kern Valley State Prison (KVSP),2871.0,117.3
+San Joaquin County,San Joaquin,County,Jail,,782545.0,
+Merced USPAtwater,Merced,Federal,Prison,Out of Data,287420.0,
+Santa Clara County,Santa Clara,County,Jail,,1967585.0,
+Orange County,Orange,County,Jail,,3228519.0,
+Salinas Valley,Monterey,State,Prison,Salinas Valley State Prison (SVSP),2687.0,109.6
