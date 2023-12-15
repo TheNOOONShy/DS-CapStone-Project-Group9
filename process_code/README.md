@@ -20,7 +20,7 @@ sentiment_analysis_from_folder_NLTK.py
 
 
 parsed_weekly_data.py
-Read `file_name`column
+- Read `file_name`column from `weeklydata.csv`
 - for `Date`,`Facility name`columns
 
 
