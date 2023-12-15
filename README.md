@@ -514,6 +514,6 @@ This project utilizes public data provided by:
 - The State of California's COVID-19 public data repository.
 - The California Department of Corrections and Rehabilitation (CDCR) for prison-specific COVID-19 statistics.
 
-## Note on Project Privacy
+### Note on Data Availability
 
-This project is not open to public contribution and is intended for private use and educational purposes only. It is a collaborative effort for academic analysis under the guidance of our project sponsors and academic advisors.
+We have removed the data related to our sponsors from the public repository as it was not intended for public release. If any of our sponsors wish to access and run the analysis with their specific data, please feel free to contact us directly. We are committed to ensuring the confidentiality and proper use of the data as per our agreement.
